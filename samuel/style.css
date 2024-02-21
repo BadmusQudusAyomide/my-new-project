@@ -1,0 +1,169 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+html {
+    font-size: 50.5%;
+    overflow-x: hidden;
+
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    
+    z-index: 100;
+}
+
+header.sticky {
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
+.logo {
+    font-size: 2;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+    margin-right: 50px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(92, 90, 90);
+}
+.home{
+    margin-left: 30%;
+    color: White;
+}
+.contact{
+    margin-left: 10px;
+    color: White;
+}
+.about {
+    margin-left: 10px;
+    color: White;
+}
+.menu{
+    margin-left: 10px;
+    color: White;
+}
+.service {
+    margin-left: 10px;
+    color: White;
+}
+.reg{
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px ;
+    padding-top: 10px;
+    padding-bottom:10px;
+    background-color: yellow;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(red);
+    font-size: small;
+        
+}
+.reg:hover{
+    background-color: white;
+    color: rgb(92, 90, 90);
+} 
+.log{
+    margin-left: 10px;
+    padding-left: 5px ;
+    padding-right: 5px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    color: white;
+    background-color: transparent;
+    border: 2px  solid greenyellow;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem var(yellow);
+    transition: .9s ease;
+
+}
+.log:hover{
+    background-color: yellow;
+    color: rgb(92, 90, 90);
+}
+.container{
+    width: 100%;
+   height: 300px;
+    border: 2px solid red;
+    display: inline-flex;
+   
+}
+
+.cont{
+    background-color:rgb(92, 90, 90);;
+    height: auto;
+    width: 500px;
+    margin-top: 40px;
+    /* background-color: aqua; */
+   
+}
+h1, h2{
+    color: white;
+    margin-left: 10px;
+    
+}
+.taste{
+    color:lawngreen;
+    margin-top: 30px;
+    display: inline;
+}
+
+.cont1{
+    /* background-color: aqua; */
+    height: auto;
+    margin-left: 5%;
+    
+}
+img{
+    height:250px;
+    width: 400px;
+}

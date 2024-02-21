@@ -1,0 +1,29 @@
+[dir="ltr"] .coin-order .tw-chat--avaya-chat .tw-chat--avaya-chat__permanent_cta_style,
+[dir="ltr"] .coin-order--inventory .tw-chat--avaya-chat .tw-chat--avaya-chat__permanent_cta_style {
+    left: auto;
+    right: var(--tds-size--2x);
+}
+
+@media (min-width: 600px) {
+    [dir="ltr"] .coin-order .tw-chat--avaya-chat .tw-chat--avaya-chat__modal,
+    [dir="ltr"] .coin-order--inventory .tw-chat--avaya-chat .tw-chat--avaya-chat__modal {
+        inset-inline-end: var(--tw-chat--tds-size--1x);
+        inset-inline-start: auto;
+    }
+}
+
+@media (min-width: 1025px) {
+    [dir="ltr"] .coin-order .tw-chat--avaya-chat .tw-chat--avaya-chat__permanent_cta_style,
+    [dir="ltr"] .coin-order--inventory .tw-chat--avaya-chat .tw-chat--avaya-chat__permanent_cta_style {
+        right: auto;
+        left: var(--tds-size--4x);
+    }
+}
+
+@media (min-width: 1025px) {
+    [dir="ltr"] .coin-order .tw-chat--avaya-chat .tw-chat--avaya-chat__modal,
+    [dir="ltr"] .coin-order--inventory .tw-chat--avaya-chat .tw-chat--avaya-chat__modal {
+        inset-inline-start: var(--tw-chat--tds-size--3x);
+        inset-inline-end: auto;
+    }
+}

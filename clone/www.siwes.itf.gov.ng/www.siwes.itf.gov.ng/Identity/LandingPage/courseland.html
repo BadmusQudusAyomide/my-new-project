@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Siwes &mdash; Siwes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="/images/compt.png" type="image/ico" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="/siwesTemplate/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="/siwesTemplate/css/bootstrap.min.css">
+
+    <!-- Select2 -->
+    <link rel="stylesheet" href="/siwesTemplate/select2/css/select2.min.css">
+    <link rel="stylesheet" href="/siwesTemplate/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+
+    <link rel="stylesheet" href="/siwesTemplate/css/magnific-popup.css">
+    <link rel="stylesheet" href="/siwesTemplate/css/jquery-ui.css">
+    <link rel="stylesheet" href="/siwesTemplate/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/siwesTemplate/css/owl.theme.default.min.css">
+
+
+
+    <link rel="stylesheet" href="/siwesTemplate/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="/siwesTemplate/fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="/siwesTemplate/css/aos.css">
+
+    <link rel="stylesheet" href="/siwesTemplate/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="site-wrap">
+
+        <div class="site-mobile-menu">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+        <header class="site-navbar py-4 bg-white js-sticky-header site-navbar-target" role="banner" style="width: 1349px; position: fixed; top: 0px; z-index:10000; background-color:darkred;">
+            <div class="container navbar-red navbar-light">
+                <div class="row align-items-center">
+
+                    <div class="col-10 col-xl-2" style="margin-bottom:-3%">
+                        <img src="/siwesTemplate/images/itf-logo-large.png" class="brand-image img-circle elevation-3" width="70" height="70">
+                    </div>
+                    <div class="col-12 col-md-12 d-none d-xl-block">
+                        <nav class="site-navigation position-relative text-right" role="navigation">
+
+                            <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                                <li class="active" id="home"><a id="homeLink" href="/Identity/LandingPage/home">Home</a></li>
+                                <li id="about"><a id="homeLink" href="/Identity/LandingPage/About">About</a></li>
+                                <li><a href="/Identity/LandingPage/Resourses">Resources</a></li>
+                                <li class="has-children">
+                                    <a href="">Institutions</a>
+                                    <ul class="dropdown">
+                                        <li><a href="/Identity/LandingPage/Instiland">List of Institutions</a></li>
+                                        <li><a href="/Identity/LandingPage/courseland">Disciplines/Courses approved for SIWES</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children">
+                                    <a href="">Employers</a>
+                                    <ul class="dropdown">
+                                        <li><a href="/Identity/LandingPage/viewStudentRequest">View Students Request for SIWES Attachment</a></li>
+                                        <li><a href="/Identity/LandingPage/Empland">Sectors & Subsectors</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children">
+                                    <a href="">Students</a>
+                                    <ul class="dropdown">
+                                        <li><a href="/Identity/LandingPage/studentRequest">Request for SIWES Attachment</a></li>
+                                        <li><a href="/Identity/LandingPage/viewEmployerRequest">View Employers Request for SIWES Students</a></li>
+                                    </ul>
+                                </li>
+                                <li><a id="contactLink" href="/Identity/LandingPage/contact">Contact Us</a></li>
+                                <li><a href="/Identity/Account/Login">Login</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+                    <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+                </div>
+
+            </div>
+        </header>
+
+    </div>
+    <div class="site-blocks-cover overlay" style="background-image : url('/siwesTemplate/images/frontView.PNG'); display:none" data-aos="fade" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+
+                <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
+
+                    <div class="row justify-content-center mb-4">
+                        <div class="col-md-8 text-center">
+                            <h1>ITF NIGERA <span class="typed-words"></span></h1>
+                            <p class="lead mb-5">Developing the Nation's Human Resource through SIWES</p>
+                            <div><a href="/Identity/Account/Login" class="btn btn-info btn-md">Sign In</a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <main role="main" class="pb-3">
+
+
+            <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('/siwesTemplate/images/frontView.PNG');" data-aos="fade" data-stellar-background-ratio="0.5">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center text-center">
+
+                        <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
+
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-md-8 text-center">
+                                    <h1 style="color:white">Disciplines/Courses approved for SIWES <span class="typed-words"></span></h1>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div style="display:table; margin:0 auto; margin-top:3%; width:70%; " id="divdist">
+                <table id="tbinstlist" class="table table-bordered" border="0">
+
+                    <tbody>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:black">
+                                1. LIST OF DISCIPLINES/COURSES APPROVED BY NATIONAL UNIVERSITY COMMISSION
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                1 Agriculture
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Crop and Soil Science</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Animal Science</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Agriculture Economics and Extension</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">4</td>
+                            <td style="width:20%; text-align:left">Forestry</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">5</td>
+                            <td style="width:20%; text-align:left">Fisheries</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">6</td>
+                            <td style="width:20%; text-align:left">Home Economics</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                2 Education
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Technical Education</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Business Education</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Library Studies</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                3 Engineering and Technology
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Agriculture and Forestry Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Food Processing/Food Science and Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Water Resources and Environmental Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">4</td>
+                            <td style="width:20%; text-align:left">Chemical Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">5</td>
+                            <td style="width:20%; text-align:left">Biotechnology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">6</td>
+                            <td style="width:20%; text-align:left">Engineering Management</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">7</td>
+                            <td style="width:20%; text-align:left">Farm Machinery Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">8</td>
+                            <td style="width:20%; text-align:left">Transport &amp; Highway Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">9</td>
+                            <td style="width:20%; text-align:left">Wood Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">10</td>
+                            <td style="width:20%; text-align:left">Maritime Management &amp; Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">11</td>
+                            <td style="width:20%; text-align:left">Mechanical Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">12</td>
+                            <td style="width:20%; text-align:left">Production Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">13</td>
+                            <td style="width:20%; text-align:left">Civil Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">14</td>
+                            <td style="width:20%; text-align:left">Building &amp; Construction Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">15</td>
+                            <td style="width:20%; text-align:left">Materials &amp; Metallurgical Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">16</td>
+                            <td style="width:20%; text-align:left">Polymer &amp; Textile Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">17</td>
+                            <td style="width:20%; text-align:left">Fibre Science &amp; Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">18</td>
+                            <td style="width:20%; text-align:left">Mining Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">19</td>
+                            <td style="width:20%; text-align:left">Mining &amp; Materials Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">20</td>
+                            <td style="width:20%; text-align:left">Petroleum &amp; Petrochemical Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">21</td>
+                            <td style="width:20%; text-align:left">Computer Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">22</td>
+                            <td style="width:20%; text-align:left">Public Health Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">23</td>
+                            <td style="width:20%; text-align:left">Ceramic Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">24</td>
+                            <td style="width:20%; text-align:left">Communication Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">25</td>
+                            <td style="width:20%; text-align:left">Industrial Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">26</td>
+                            <td style="width:20%; text-align:left">Electrical Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">27</td>
+                            <td style="width:20%; text-align:left">Electronic Engineering</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                4 Environmental Sciences
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Architecture</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Building &amp; Construction Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Estate Management</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">4</td>
+                            <td style="width:20%; text-align:left">Quantity Surveying</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">5</td>
+                            <td style="width:20%; text-align:left">Urban &amp; Regional Planning</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">6</td>
+                            <td style="width:20%; text-align:left">Fine Arts</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">7</td>
+                            <td style="width:20%; text-align:left">Industrial Design</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">8</td>
+                            <td style="width:20%; text-align:left">Geography</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">9</td>
+                            <td style="width:20%; text-align:left">Land &amp; Estate Management</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">10</td>
+                            <td style="width:20%; text-align:left">Construction Management</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">11</td>
+                            <td style="width:20%; text-align:left">Surveying and Geodesy &amp; Photogrammetry</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">12</td>
+                            <td style="width:20%; text-align:left">Meteorology</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                5 Medical Sciences
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">PhysioTherapy and Medicinal Rehabilitation</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Nursing</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Medical Radiography</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">4</td>
+                            <td style="width:20%; text-align:left">Medical Laboratory Science</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">5</td>
+                            <td style="width:20%; text-align:left">Pharmacy</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                6 Sciences
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Zoology,</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Microbiology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Biochemistry</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">4</td>
+                            <td style="width:20%; text-align:left">Botany</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">5</td>
+                            <td style="width:20%; text-align:left">Computer Science</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">6</td>
+                            <td style="width:20%; text-align:left">Geology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">7</td>
+                            <td style="width:20%; text-align:left">Geophysics &amp; Applied Geophysics</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">8</td>
+                            <td style="width:20%; text-align:left">Industrial Mathematics</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">9</td>
+                            <td style="width:20%; text-align:left">Industrial Physics</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">10</td>
+                            <td style="width:20%; text-align:left">Industrial Chemistry</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">11</td>
+                            <td style="width:20%; text-align:left">Applied Microbiology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">12</td>
+                            <td style="width:20%; text-align:left">Applied Biochemistry</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                7 Veterinary Medicine
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Veterinary Medicine</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:black">
+                                2. LIST OF DISCIPLINES/COURSES APPROVED BY NATIONAL BOARD FOR TECHNICAL EDUCATION
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                1 Agriculture and Related Technology
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Agriculture Engineering Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Agriculture Technology (General Agriculture)</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Animal Health &amp; Production Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">4</td>
+                            <td style="width:20%; text-align:left">Fisheries Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">5</td>
+                            <td style="width:20%; text-align:left">Forestry</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">6</td>
+                            <td style="width:20%; text-align:left">Wildlife Management</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">7</td>
+                            <td style="width:20%; text-align:left">Wood &amp; Paper Technology</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                2 Art, Printing and Related Technology
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Art &amp; Industrial Design</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Fashion Design &amp; Clothing Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Printing Technology</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                3 Engineering Technology
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Chemical Engineering Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Civil Engineering Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Electrical/Electronic Engineering Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">4</td>
+                            <td style="width:20%; text-align:left">Foundry Engineering Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">5</td>
+                            <td style="width:20%; text-align:left">Textile Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">6</td>
+                            <td style="width:20%; text-align:left">Petroleum Engineering Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">7</td>
+                            <td style="width:20%; text-align:left">Ceramic &amp; Glass Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">8</td>
+                            <td style="width:20%; text-align:left">Leather Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">9</td>
+                            <td style="width:20%; text-align:left">Irrigation Engineering Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">10</td>
+                            <td style="width:20%; text-align:left">Mechanical Engineering Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">11</td>
+                            <td style="width:20%; text-align:left">Metallurgical Engineering Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">12</td>
+                            <td style="width:20%; text-align:left">Mining Engineering Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">13</td>
+                            <td style="width:20%; text-align:left">Mineral Resources Engineering</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">14</td>
+                            <td style="width:20%; text-align:left">Marine Engineering Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">15</td>
+                            <td style="width:20%; text-align:left">Computer Engineering Technology</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                4 Environmental Design Studies
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Architectural Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Building Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Cartography</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">4</td>
+                            <td style="width:20%; text-align:left">Estate Management</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">5</td>
+                            <td style="width:20%; text-align:left">Land Surveying</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">6</td>
+                            <td style="width:20%; text-align:left">Photogrammetry</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">7</td>
+                            <td style="width:20%; text-align:left">Town &amp; Regional Planning</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">8</td>
+                            <td style="width:20%; text-align:left">Quantity Surveying</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                5 Hospitality and Related Technology
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Hotel &amp; Catering Management</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Nutrition &amp; Dietetics</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Tourism</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">4</td>
+                            <td style="width:20%; text-align:left">Home Economics &amp; Management</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                6 Information Technology
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Mass Communication</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                7 Science, Computer and Related Technology
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Library Science</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Mathematics/Statistics</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Food Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">4</td>
+                            <td style="width:20%; text-align:left">Rubber &amp; Polymer Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">5</td>
+                            <td style="width:20%; text-align:left">Science Laboratory Technology</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">6</td>
+                            <td style="width:20%; text-align:left">Computer Science</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:black">
+                                3. LIST OF DISCIPLINES/COURSES APPROVED BY NATIONAL COMMISSION FOR COLLEGES OF EDUCATION
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:left; font:bold 100;
+                                    font-size:30px; color:red">
+                                1 Education
+                            </td>
+                        </tr>
+                        <tr style="background-color:red">
+                            <td style="width:5%; color:white; font-size:20px; font:bold; text-align:center">S/N</td>
+                            <td style="width:20%; color:white; font-size:20px; font:bold;  text-align:center">Course Name</td>
+
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">1</td>
+                            <td style="width:20%; text-align:left">Agricultural Education</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">2</td>
+                            <td style="width:20%; text-align:left">Business Education</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">3</td>
+                            <td style="width:20%; text-align:left">Home Economics Education</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">4</td>
+                            <td style="width:20%; text-align:left">Technology Education</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">5</td>
+                            <td style="width:20%; text-align:left">Computer Education</td>
+                        </tr>
+                        <tr style="font-size:medium">
+                            <td style="width:5%; text-align:left">6</td>
+                            <td style="width:20%; text-align:left">Creative Arts &amp; Design</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <footer style="display:none" class="site-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h2 class="footer-heading mb-4">Quick Links</h2>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Testimonials</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h2 class="footer-heading mb-4">Products</h2>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Testimonials</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h2 class="footer-heading mb-4">Features</h2>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Testimonials</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
+                            <form action="#" method="post">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row pt-5 mt-5 text-center">
+                        <div class="col-md-12">
+                            <div class="border-top pt-5">
+                                <p>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    Copyright &copy;
+                                    <script>
+                                        document.write(new Date().getFullYear());
+                                    </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous">
+            </script>
+            <script type="text/javascript">
+                $(document).ready(function() {
+
+                    $('#tbinstlist').DataTable();
+                })
+            </script>
+
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+    <script src="/siwesTemplate/js/jquery-3.3.1.min.js"></script>
+    <script src="/siwesTemplate/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="/siwesTemplate/js/jquery-ui.js"></script>
+    <script src="/siwesTemplate/js/popper.min.js"></script>
+    <script src="/siwesTemplate/js/bootstrap.min.js"></script>
+    <script src="/siwesTemplate/js/owl.carousel.min.js"></script>
+    <script src="/siwesTemplate/js/jquery.stellar.min.js"></script>
+    <script src="/siwesTemplate/js/jquery.countdown.min.js"></script>
+    <script src="/siwesTemplate/js/jquery.magnific-popup.min.js"></script>
+    <script src="/siwesTemplate/js/bootstrap-datepicker.min.js"></script>
+    <!-- Select2 -->
+    <script src="/siwesTemplate/select2/js/select2.full.min.js"></script>
+    <script src="/siwesTemplate/js/aos.js"></script>
+
+    <script src="/siwesTemplate/js/typed.js"></script>
+    <script>
+        var typed = new Typed('.typed-words', {
+            strings: ["Web Apps", " WordPress", " Mobile Apps"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true
+        });
+        $(function() {
+            //Initialize Select2 Elements
+            //  $('.select2').select2()
+
+            //Initialize Select2 Elements
+            $('.select2bs4').select2({
+                theme: 'bootstrap4'
+            })
+        })
+        //$('#homeLink').on('click', function () {
+        //    alert("yes");
+        //    $('#home').addClass('active');
+        //    $('#contact').removeClass('active');
+        //    //$('li:first').addClass('active');
+        //});
+        //$('#contactLink').on('click', function () {
+        //    alert("no");
+        //    $('#contact').addClass('active');
+        //    $('#home').removeClass('active');
+        //    //$('li:first').addClass('active');
+        //});
+    </script>
+
+    <script src="/siwesTemplate/js/main.js"></script>
+
+</body>
+
+</html>

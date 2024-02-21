@@ -1,0 +1,39 @@
+<html>
+
+<body>
+    <script>
+        if (navigator.joinAdInterestGroup) {
+            const addIgScript = document.createElement('script');
+            let src = null;
+            if (navigator.runAdAuction) {
+                if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                    src = 'https://creativecdn.com/ig-membership?ntk=1PLFkOiRZAHlyJotSMlzRBmypp-PrARZs5Yj4c9XgSqRAIgJ8r2aclqjxZ842811QYl084jvxm5XV1sQDWHxPFpU7NZbbPgiXv3-j_9mIL6o8ToB2Pg6lXagSv9kAloK';
+                } else {
+                    src = 'https://creativecdn.com/ig-membership?ntk=1PLFkOiRZAHlyJotSMlzRBmypp-PrARZs5Yj4c9XgSqRAIgJ8r2aclqjxZ842811QYl084jvxm5XV1sQDWHxPFpU7NZbbPgiXv3-j_9mIL6f4Gq53Dmz1rG3YkVz4wHj';
+                }
+            } else {
+                if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                    src = 'https://creativecdn.com/ig-membership?ntk=1PLFkOiRZAHlyJotSMlzRBmypp-PrARZs5Yj4c9XgSqRAIgJ8r2aclqjxZ842811QYl084jvxm5XV1sQDWHxPOkYUnWnO5VuJDSacbf4ucCXDklNjS2DvHetouk5x_gf';
+                } else {
+                    src = 'https://creativecdn.com/ig-membership?ntk=1PLFkOiRZAHlyJotSMlzRBmypp-PrARZs5Yj4c9XgSqRAIgJ8r2aclqjxZ842811QYl084jvxm5XV1sQDWHxPOkYUnWnO5VuJDSacbf4ucChmmlE_Dkfd7O-_gURgzoB';
+                }
+            }
+
+            if ('cookieDeprecationLabel' in navigator) {
+                navigator.cookieDeprecationLabel.getValue().then((label) => {
+                    if (label) {
+                        src += "&lbl=" + label;
+                    }
+
+                    addIgScript.setAttribute('src', src);
+                    document.body.appendChild(addIgScript);
+                });
+            } else {
+                addIgScript.setAttribute('src', src);
+                document.body.appendChild(addIgScript);
+            }
+        }
+    </script>
+</body>
+
+</html>

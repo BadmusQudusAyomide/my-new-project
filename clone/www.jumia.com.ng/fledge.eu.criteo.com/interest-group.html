@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Chrome origin trial token -->
+    <meta http-equiv="origin-trial" content="AnolOEEMEnMaCvmUcw/eijaA/Ntx4pke43TW8O1+XFxTL7yMSzmBnkPrjQ33sKmqvREEpLQOE72gUMzHLu9KiAoAAABseyJvcmlnaW4iOiJodHRwczovL2NyaXRlby5jb206NDQzIiwiZmVhdHVyZSI6IlByaXZhY3lTYW5kYm94QWRzQVBJcyIsImV4cGlyeSI6MTY5NTE2Nzk5OSwiaXNTdWJkb21haW4iOnRydWV9">
+</head>
+
+<body>
+
+    <script>
+        function getBswIg() {
+            const elt = document.createElement("iframe");
+            elt.allow = "join-ad-interest-group";
+            elt.width = "0";
+            elt.height = "0";
+            elt.style.display = "none";
+            elt.title = "BSW IG";
+            elt.src = "https://dsp-paapi-sandbox.bsw-ig.criteo.com/paapi/dsp/html/index";
+
+            document.body.appendChild(elt);
+        }
+
+        if (!navigator.joinAdInterestGroup) {
+            console.log("No fledge for you!");
+        } else {
+            var igs = [];
+            var expiration = 2592000;
+            for (const ig of igs) {
+                navigator.joinAdInterestGroup(ig, expiration);
+            }
+
+            if (false) {
+                getBswIg();
+            }
+        }
+
+        async function measureAudienceSize() {
+            // Measuring audience size
+            // Register worklet
+            if ((!window ? .sharedStorage ? .worklet ? .addModule) || (!window ? .sharedStorage ? .run)) {
+                return;
+            }
+            await window.sharedStorage.worklet.addModule('');
+
+            // Run audience size measurement operation
+            await window.sharedStorage.run('audience-size-measurement', {
+                data: {
+                    bucketKey: BigInt('496260'),
+                    contributionValue: 8192
+                }
+            });
+        }
+
+        //TODO reactivate audience-size-measurement
+        //measureAudienceSize();
+    </script>
+
+</body>

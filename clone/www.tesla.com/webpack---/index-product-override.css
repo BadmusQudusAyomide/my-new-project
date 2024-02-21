@@ -1,0 +1,54 @@
+.template-landing-page .tw-chat--avaya-chat .tw-chat--avaya-chat__bubble_icon {
+    fill: var(--tds-color--white);
+    animation: product-color-delayed 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+.template-landing-page .tw-chat--avaya-chat .tw-chat--avaya-chat__animated_button {
+    background: var(--tds-color-grey-15);
+    animation: product-background-delayed 6s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes product-color-delayed {
+    from {
+        fill: var(--tds-color--white);
+    }
+    1%,
+    9%,
+    26%,
+    34% {
+        fill: var(--tds-color--black);
+    }
+    25%,
+    50% {
+        fill: var(--tds-color--white);
+    }
+    to {
+        fill: var(--tds-color--white);
+    }
+}
+
+@keyframes product-background-delayed {
+    from {
+        background: var(--tds-color-grey-15);
+        opacity: 1;
+    }
+    1%,
+    9%,
+    26%,
+    34% {
+        background: rgba(255, 255, 255, 0.9);
+    }
+    25%,
+    50% {
+        background: var(--tds-color-grey-15);
+        opacity: 1;
+    }
+    to {
+        background: var(--tds-color-grey-15);
+    }
+}

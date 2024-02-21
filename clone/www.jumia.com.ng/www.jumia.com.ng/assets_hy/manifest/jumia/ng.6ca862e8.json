@@ -1,0 +1,21 @@
+{
+  "icons": [
+    {
+      "src": "/assets_hy/manifest/jumia/icons/icon_512x512.7e9ac882f66f1aa03b5c5e095f02d938.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets_hy/manifest/jumia/icons/icon_192x192.e16107a390641a16872a2683ed2ec616.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Jumia Nigeria",
+  "short_name": "Jumia",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "https://www.jumia.com.ng/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}

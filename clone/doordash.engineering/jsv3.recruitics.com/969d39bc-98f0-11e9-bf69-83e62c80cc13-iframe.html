@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <title>IFrame</title>
+</head>
+
+<body>
+    <script>
+        var rx = rx || {};
+        rx._ = rx._ || {};
+
+        /**
+         *  Logging wrapper. Addresses lack of "console" support in IE9.
+         */
+        rx._.log = function(message, a1) {
+            if (window.rx_debug) {
+                window.rx_debug += "INFO: " + message + "\n";
+            } else {
+                window.rx_debug = "INFO: " + message + "\n";
+            }
+            if (false && window.console) {
+                if (typeof a1 == "undefined") {
+                    window.console.log(message);
+                } else {
+                    window.console.log(message, a1);
+                }
+            }
+        }
+
+        /**
+         *  Logging wrapper. Addresses lack of "console" support in IE9.
+         */
+        rx._.error = function(message, a1) {
+            if (window.rx_debug) {
+                window.rx_debug += "ERROR: " + message + "\n";
+            } else {
+                window.rx_debug = "ERROR: " + message + "\n";
+            }
+            if (false && window.console) {
+                if (typeof a1 == "undefined") {
+                    window.console.error(message);
+                } else {
+                    window.console.error(message, a1);
+                }
+            }
+        };
+
+        // ---------------------------------------------------------------------------------------------------------------------
+        // SEND EVENT FROM I-FRAME
+        // ---------------------------------------------------------------------------------------------------------------------
+        rx._.log("Setting up iFrame logic for jsv3.recruitics.com");
+        rx._.payload = {
+            "viewer": {
+                "v2_first": null,
+                "v2_local": null,
+                "v3_first": "56813aa1d04311ee94b62545d1c283eee724d48520054c929e90b850639984b1",
+                "v3_first_samesite": "56813aa1d04311ee94b62545d1c283eee724d48520054c929e90b850639984b1",
+                "v3_local": "56813aa1d04311ee94b62545d1c283eee724d48520054c929e90b850639984b1",
+                "v3_param": null
+            },
+            "referrer": "",
+            "title": "Homepage Recommendation with Exploitation and Exploration",
+            "eventType": "pageview",
+            "pageType": "All Other Pages",
+            "scriptId": "969d39bc-98f0-11e9-bf69-83e62c80cc13",
+            "cid": "3246",
+            "versionId": "bc0e953e-b65d-11ee-9831-b7731f739293",
+            "jobId": null,
+            "uri": "https://doordash.engineering/2022/10/05/homepage-recommendation-with-exploitation-and-exploration/",
+            "hasCustomJs": false,
+            "anonymizeIp": false,
+            "nvp": {}
+        };
+        rx._.sendPayload = function(fn) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    fn(xhttp.responseText);
+                }
+            }
+            xhttp.open("POST", "//jsv3.recruitics.com/event.txt", true); // async post to event.txt
+            xhttp.send(JSON.stringify(rx._.payload)); // add the payload and send it
+        };
+        rx._.handleResponse = function(viewerId) {
+            if (window.parent && window.parent.postMessage) {
+                window.parent.postMessage("rx_viewer=" + viewerId, "*");
+            }
+        };
+        rx._.sendPayload(rx._.handleResponse);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,4233 @@
+.ar._9-5 {
+    padding-top: 55.5555555556%
+}
+
+.ar._1-1 {
+    padding-top: 100%
+}
+
+.ar._3-2 {
+    padding-top: 66.6666666667%
+}
+
+.ar._3-4 {
+    padding-top: 133.3333333333%
+}
+
+.ar._1-2 {
+    padding-top: 200%
+}
+
+.ar._5-2 {
+    padding-top: 40%
+}
+
+.ar._5-4 {
+    padding-top: 80%
+}
+
+.ar._3-1 {
+    padding-top: 33.3333333333%
+}
+
+.ar._2-1 {
+    padding-top: 50%
+}
+
+.ar._8-1 {
+    padding-top: 12.5%
+}
+
+.ar._11-4 {
+    padding-top: 36.3636363636%
+}
+
+.cb+.lbl,
+.fi-br button,
+.fk-rad,
+.rad~.lbl {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+#jm .-rad99,
+#jm .-rnd,
+.btn._rnd,
+.chip,
+.fis-b,
+.nav-b,
+.popup .cw .cls,
+[data-bbl]:before {
+    border-radius: 99px
+}
+
+#jm .-rad4,
+#tog-v:checked+.prd-w .prd .img-c,
+.alert,
+.btn,
+.card,
+.card-b,
+.cms table,
+.crs._bnrs .img,
+.crs._gal-th._def .img,
+.dp,
+.dtls,
+.fi,
+.meter,
+.popup._ctr .cw,
+.prd .core:focus,
+.prd-w._list .prd .img-c,
+.prd._box,
+.prd._rec,
+.prd._rec .core,
+.rng .ri-w,
+.sel,
+.ta {
+    border-radius: 4px
+}
+
+#jm .-rad4-top {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px
+}
+
+#jm .-rad4-bot {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px
+}
+
+#jm .-rad2,
+.bdg,
+.cb+.lbl:after,
+.cntd._def .t,
+.vars .vl {
+    border-radius: 2px
+}
+
+.card._fw,
+.card._no-lns,
+input,
+select {
+    border-radius: 0
+}
+
+.cb+.lbl:before,
+.fi-br button:before,
+.fk-rad:after,
+.fk-rad:before,
+.ic-bg,
+.rad~.lbl:after,
+.rad~.lbl:before,
+.spin:before,
+.spinner,
+.stpr .circ,
+.stpr .stp:last-child .circ .ic {
+    border-radius: 50%
+}
+
+#jm .-ban,
+.btn,
+.card-b .hd:only-child,
+.cb:checked+.lbl:after,
+.fi-br button,
+.fis,
+.rng .ri,
+.stpr .stp:after,
+.y-ifm,
+button,
+fieldset {
+    border: 0
+}
+
+.stpr ._curr.stp:after {
+    border-style: dotted
+}
+
+.cms .tabs>[type=radio]:checked+label,
+.tab ._actv {
+    border-bottom: 2px solid #f68b1e
+}
+
+.tab._fsale ._actv {
+    border-bottom: 2px solid #e61601
+}
+
+.stpr .circ,
+[data-bbl]:before {
+    border: 2px solid #fff
+}
+
+.crs._gal-th._def .img,
+.markup table,
+.markup td {
+    border: 2px solid #d4d4d6
+}
+
+.cb+.lbl:after,
+.fk-rad:after,
+.rad~.lbl:after {
+    border: 2px solid #a3a3a6
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+#jm .-out0,
+#jm .-tch-or5,
+._inv:invalid ._sec.btn,
+._sec.btn._dis,
+._sec.btn:disabled,
+.a,
+.btn,
+.dtls .smry,
+.fi-br button,
+.fis,
+.fis-b,
+.fk-rad,
+.nav-b,
+.noti .cls,
+.popup .cw .cls,
+.popup:focus-visible,
+.rate .star,
+.rng .ri,
+.rng .rs,
+a {
+    outline: 0
+}
+
+.dp,
+.fi,
+.sel,
+.ta {
+    outline-offset: -2px
+}
+
+.dp:focus,
+.fi:focus,
+.sel:focus,
+.ta:focus {
+    outline: 1px solid #f9b168
+}
+
+.fi-er+.dp:not(:focus),
+.fi-er+.fi:not(:focus),
+.fi-er+.sel:not(:focus),
+.fi-er+.ta:not(:focus),
+.fif .fi-er~.f-cta {
+    outline: 1px solid #b81a0a
+}
+
+img {
+    border-style: none
+}
+
+.fs .ir-w {
+    border-right: 2px solid #d4d4d6
+}
+
+._is>.col2:nth-child(4n),
+._is>.col4:nth-child(2n) {
+    border-right: 1px solid transparent
+}
+
+#jm .-br-gy7 {
+    border-right: 1px solid #535357
+}
+
+.stpr .stp:after {
+    border-left: 4px solid #6e85b9
+}
+
+.bdg._score {
+    border: 1px solid #fce7b9
+}
+
+._is>.col2:nth-child(4n+1):nth-last-child(-n+4),
+._is>.col2:nth-child(4n+1):nth-last-child(-n+4)~.col2,
+._is>.col4:nth-child(odd):nth-last-child(-n+2),
+._is>.col4:nth-child(odd):nth-last-child(-n+2)~.col4 {
+    border-bottom: 0
+}
+
+.spin:before,
+.spinner {
+    border: 2px solid #f68b1e;
+    border-right-color: transparent
+}
+
+#jm [data-mid-txt].-hr:after,
+.noti .msg+[data-mid-txt].msg:after,
+.sdw [data-mid-txt].sdtl:after {
+    content: attr(data-mid-txt)
+}
+
+#jm .-ba-gy1,
+.card-b,
+.cms td,
+.cms th,
+.cms tr,
+.cntd._def .t,
+.dtls,
+.vars .vl,
+.vars._no-chk .vi._dis:checked+.vl,
+.vars._no-chk .vi:checked+.vl {
+    border: 1px solid #d4d4d6
+}
+
+#jm .-ba-gy3,
+.dp,
+.fi,
+.rng .ri-w,
+.sel,
+.ta,
+.vars .vi._dis:checked+.vl,
+.vars .vi._dis:focus+.vl,
+.vars._no-chk .vi:focus+.vl {
+    border: 1px solid #a3a3a6
+}
+
+#jm .-ba-gn05 {
+    border: 1px solid #f0f8ea
+}
+
+.bdg._save {
+    border: 1px solid #6dbd28
+}
+
+.bdg._na {
+    border: 1px solid #cf665b
+}
+
+.fi-er+.dp:not(:focus),
+.fi-er+.fi:not(:focus),
+.fi-er+.sel:not(:focus),
+.fi-er+.ta:not(:focus),
+.fif .fi-er~.f-cta {
+    border: 1px solid #b81a0a
+}
+
+#jm .-bt {
+    border-top: 1px solid #f1f1f2
+}
+
+.cms .tabs>div {
+    border-top: 1px solid #d4d4d6
+}
+
+#jm .-bb,
+.s-menu .m-itm {
+    border-bottom: 1px solid #f1f1f2
+}
+
+._is>[class*=col],
+.card-b .hd,
+.dtls[open] .smry {
+    border-bottom: 1px solid #d4d4d6
+}
+
+#jm .-brbl-fsale {
+    border-bottom: 1px solid #e61601
+}
+
+._is>[class*=col] {
+    border-right: 1px solid #d4d4d6
+}
+
+#jm .-brbl-fsale {
+    border-left: 1px solid #e61601;
+    border-right: 1px solid #e61601
+}
+
+.cms table {
+    border-style: hidden
+}
+
+.btn {
+    color: #f68b1e
+}
+
+._val-btn .cb:checked~.btn,
+.btn._prim,
+[data-bbl]:before {
+    background: #f68b1e
+}
+
+.btn._fb:focus {
+    background-color: #617aac
+}
+
+.lwo,
+.olay {
+    background: rgba(0, 0, 0, .5)
+}
+
+.bdg._ad,
+.prd._full ._wslt {
+    background-color: hsla(0, 0%, 100%, .8)
+}
+
+.b2top {
+    background-color: rgba(49, 49, 51, .95)
+}
+
+#jm .-op0,
+._val-btn .cb:checked~.btn:after,
+.btn._def:after,
+.btn._fb:after,
+.btn._prim:after,
+.btn._sec:after {
+    opacity: 0
+}
+
+#jm .-op01 {
+    opacity: .1
+}
+
+._val-btn .cb:checked~.btn:focus:active:after,
+.btn._def:focus:active:after,
+.btn._fb:focus:active:after,
+.btn._prim:focus:active:after,
+.btn._sec:focus:active:after {
+    opacity: .2
+}
+
+#jm .-op03 {
+    opacity: .3
+}
+
+.cb+.lbl:active:before,
+.fi-br button:active:before,
+.fk-rad:active:before,
+.rad~.lbl:active:before {
+    opacity: .4
+}
+
+#jm .-op05,
+._w-spin[data-disabled] .spw~.btn,
+.prd._full._so .core>:not(.img-c),
+.prd._full._so .img,
+.prd._full:not(._so) .core:not([href]) {
+    opacity: .5
+}
+
+.sel:disabled {
+    opacity: 1
+}
+
+#jm .-wt,
+._inv:invalid .btn,
+._val-btn .cb:checked~.btn,
+.b2top,
+.bdg._bndl,
+.bdg._glb,
+.bdg._mall,
+.bdg._o-st,
+.btn._dis,
+.btn._fb,
+.btn._prim,
+.btn:disabled,
+.cb+.lbl:after,
+.fk-rad:after,
+.foot,
+.noti,
+.rad~.lbl:after,
+[data-bbl]:before {
+    color: #fff
+}
+
+#jm .-bg-wt,
+#jm [data-mid-txt].-hr:after,
+.bdg._save,
+.btn._sec,
+.card,
+.cntd._def .t,
+.crs._gal-th .itm,
+.dp+.lbl,
+.fi+.lbl,
+.hdr,
+.noti .msg+[data-mid-txt].msg:after,
+.popup .cw,
+.prd._box,
+.prd._rec .core,
+.s-hdr,
+.s-menu,
+.sdw,
+.sdw [data-mid-txt].sdtl:after,
+.sel+.lbl,
+.stpr .stp:last-child .circ .ic,
+.ta+.lbl,
+.vars {
+    background-color: #fff
+}
+
+#jm .-f-wt,
+._inv:invalid ._sec.btn .ic,
+._sec.btn._dis .ic,
+._sec.btn:disabled .ic,
+.b2top .ic,
+.btn .ic {
+    fill: #fff
+}
+
+#jm .-bg-gy05,
+#jm .-hr:before,
+.a._fcs-gy50._fcs-gy50:not(.btn):focus,
+.alert,
+.bdg._dfl,
+.bdg._exp._nctv,
+.bdg._itms,
+.bdg._lim._nctv,
+.chip._dflt,
+.cms ._gy-even tr:nth-child(2n),
+.dp:disabled,
+.fi:disabled,
+.noti .msg+.msg:before,
+.s-menu .m-itm._act,
+.sdw .sdtl:before,
+.sel:disabled,
+.ta:disabled,
+a._fcs-gy50._fcs-gy50:not(.btn):focus,
+body {
+    background-color: #f1f1f2
+}
+
+#jm .-gy1 {
+    color: #d4d4d6
+}
+
+#jm .-bg-gy1,
+#jm ._dual.-hr:after,
+.__ttl:empty:after,
+.a._tch._tch:not(.btn):focus,
+.banner._pp,
+.bdg._oos,
+.cb:checked:disabled~.lbl:after,
+.meter,
+.noti .msg+._dual.msg:after,
+.prd .name:empty:after,
+.prd .prc:empty:after,
+.rad:checked:disabled~.lbl:after,
+.rng .rs-w:after,
+.sdw ._dual.sdtl:after,
+a._tch._tch:not(.btn):focus {
+    background-color: #d4d4d6
+}
+
+.rate .star svg {
+    fill: #d4d4d6
+}
+
+#jm .-s-gy1 {
+    stroke: #d4d4d6
+}
+
+.cb:disabled+.lbl:after,
+.rad:disabled~.lbl:after {
+    border-color: #d4d4d6
+}
+
+#jm .-gy3,
+#jm .card._dsbl .f-dis,
+._def.btn._dis,
+._def.btn:disabled,
+._inv:invalid ._def.btn,
+.bdg._exp._nctv,
+.bdg._lim._nctv,
+.bdg._nctv,
+.card._dsbl,
+.card._dsbl #jm .f-dis,
+.cb:disabled+.lbl,
+.cb:disabled+.lbl *,
+.dp:disabled+.lbl,
+.fi:disabled+.lbl,
+.fk-rad:disabled,
+.gal .count:after,
+.rad:disabled~.lbl,
+.rad:disabled~.lbl *,
+.sel:disabled+.lbl,
+.ta:disabled+.lbl,
+.ts-w._dis input:not(:checked)~.lbl+* .ts-i,
+.vars .vi._dis+.vl,
+.vars .vi._dis:checked+.vl,
+.vars .vi._dis:focus+.vl,
+.vars .vi:disabled+.vl {
+    color: #a3a3a6
+}
+
+._inv:invalid .btn,
+.btn._dis,
+.btn:disabled,
+.cms ._vhead tr>th:first-child,
+.cms thead,
+.stpr ._curr~.stp .bdg,
+.stpr ._curr~.stp .circ {
+    background-color: #a3a3a6
+}
+
+#jm .-f-gy3,
+#jm .card._dsbl .f-dis,
+._def.btn._dis .ic,
+._def.btn:disabled .ic,
+._inv:invalid ._def.btn .ic,
+.bdg._exp._nctv .ic,
+.bdg._lim._nctv .ic,
+.bdg._nctv .ic,
+.card._dsbl #jm .f-dis,
+.fi~.ic,
+.sel~.ic {
+    fill: #a3a3a6
+}
+
+.stpr ._curr~.stp:after {
+    border-color: #a3a3a6
+}
+
+#jm .-gy5,
+#jm [data-mid-txt].-hr:after,
+.a._more:not([href]):not(button),
+.bdg._dfl,
+.card-w>.ttl,
+.card-w>.ttl-w>.ttl,
+.cms .tabs>label,
+.dp+.lbl,
+.dp:disabled,
+.fi+.lbl,
+.fi:disabled,
+.noti .msg+[data-mid-txt].msg:after,
+.prd-w._list .prd._alt .shipp,
+.prd-w._list .prd._alt .sllr .label,
+.prd-w._list .prd._alt .var .label,
+.prd._full .old,
+.prd._full .rev,
+.prd._full .spon,
+.sdw [data-mid-txt].sdtl:after,
+.sel+.lbl,
+.sel:disabled,
+.stpr .dsc,
+.ta+.lbl,
+.ta:disabled,
+.tab,
+a._more:not([href]):not(button) {
+    color: #75757a
+}
+
+#jm .-bg-gy5,
+#jm .-vr+.-vr:before,
+#jm ._gy5.-hr:before,
+.noti .msg+._gy5.msg:before,
+.sdw ._gy5.sdtl:before,
+.stpr._ord-s._gray ._curr .bdg,
+.stpr._ord-s._gray ._curr .circ {
+    background-color: #75757a
+}
+
+#jm .-f-gy5,
+.fi-br .ic,
+.prd._full .spon .ic {
+    fill: #75757a
+}
+
+.stpr._ord-s._gray ._curr:after {
+    border-color: #75757a
+}
+
+#jm .-gy7,
+.alert .text,
+.bdg._ad,
+.vars .vl {
+    color: #535357
+}
+
+#jm .-gy9,
+#jm .-tch-or5._gy9:focus-within,
+._em-gy9 em,
+.a._fcs-gy9:focus,
+.alert .tit,
+.brcbs .cbs:after,
+.cb+.lbl,
+.chip._dflt,
+.cntd._def .t,
+.dp,
+.fi,
+.fk-rad,
+.rad~.lbl,
+.rng .ri,
+.sel,
+.ta,
+.vars._no-chk .vi:checked:not(._dis):not(:disabled)+.vl,
+.vars._no-chk .vi:focus:not(._dis):not(:disabled)+.vl,
+a._fcs-gy9:focus,
+body {
+    color: #313133
+}
+
+#jm .-bg-gy9,
+.foot {
+    background-color: #313133
+}
+
+#jm .-tch-or5._gy9:focus-within .ic {
+    fill: #313133
+}
+
+._def.btn._dis,
+._def.btn:disabled,
+._inv:invalid ._def.btn,
+.btn,
+.cb+.lbl:after,
+.crs .itm.itm:focus,
+.fk-rad:after,
+.rad~.lbl:after,
+.rng .ri,
+.rng .rs,
+a,
+button {
+    background-color: transparent
+}
+
+.fi._fks {
+    border-color: transparent
+}
+
+#jm .-bg-or05,
+.alert._wrn,
+.bdg._dsct,
+.bdg._fee,
+.bdg._lim,
+.btn._sec:hover,
+.chip._slct {
+    background-color: #fef3e9
+}
+
+#jm .-tch-or5._bg:focus-within,
+.a:not(.btn):not(._no-fcs):focus,
+.btn._def:focus,
+.cb+.lbl:before,
+.chip._dflt.chip:focus,
+.dtls .smry:focus,
+.fi-br button:before,
+.fis-b:focus,
+.fk-rad:before,
+.nav-b:focus,
+.popup .cw .cls:focus,
+.rad~.lbl:before,
+a:not(.btn):not(._no-fcs):focus {
+    background-color: #fcdbb9
+}
+
+.dp:focus,
+.fi:focus,
+.sel:focus,
+.ta:focus {
+    border-color: #f9b168
+}
+
+#jm .-or5,
+#jm .-tch-or5._it:focus,
+.bdg._dsct,
+.bdg._fee,
+.bdg._lim,
+.chip._dflt.chip:focus,
+.chip._slct,
+.cms .tabs>[type=radio]:checked+label,
+.dp:focus+.lbl,
+.fi:focus+.lbl,
+.sel:focus+.lbl,
+.ta:focus+.lbl,
+.tab ._actv,
+.vars .vi:checked+.vl,
+.vars .vi:focus+.vl {
+    color: #f68b1e
+}
+
+#jm .-bg-or5,
+.cb+.lbl:active:before,
+.cb:checked+.lbl:after,
+.fi-br button:active:before,
+.fk-rad._chk:after,
+.fk-rad:active:before,
+.rad:checked~.lbl:after,
+.rad~.lbl:active:before,
+.rng .rs-w .paint {
+    background-color: #f68b1e
+}
+
+#jm .-f-or5,
+#jm .-tch-or5._it:focus .ic,
+.bdg._lim .ic,
+.btn._def .ic,
+.btn._sec .ic,
+.chip._dflt.chip:focus .ic,
+.chip._slct .ic,
+.dp:focus~.ic,
+.fi:focus~.ic,
+.sel:focus~.ic {
+    fill: #f68b1e
+}
+
+.crs._gal-th .itm._sel .img,
+.fk-rad._chk:after,
+.rad:checked~.lbl:after,
+.vars .vi:checked+.vl,
+.vars .vi:focus+.vl {
+    border-color: #f68b1e
+}
+
+#jm .-bg-or58 {
+    background-color: #ff550c
+}
+
+#jm .-f-or7 {
+    fill: #af6315
+}
+
+.alert._nfo {
+    background-color: #e9edf5
+}
+
+.noti .msg+.msg._info:before,
+.stpr .bdg,
+.stpr .circ {
+    background-color: #6e85b9
+}
+
+#jm .-bl5,
+.a._more,
+a._more {
+    color: #264996
+}
+
+#jm .-bg-bl5,
+.noti ._info,
+.stpr._ord-s._blue ._curr .bdg,
+.stpr._ord-s._blue ._curr .circ {
+    background-color: #264996
+}
+
+#jm .-f-bl5,
+.a._more._i .ic,
+.alert._nfo .ic,
+.noti ._info .cls .ic,
+a._more._i .ic {
+    fill: #264996
+}
+
+.stpr._ord-s._blue ._curr:after {
+    border-color: #264996
+}
+
+#jm .-bg-gn05,
+.alert._scss,
+.bdg._free {
+    background-color: #f0f8ea
+}
+
+.noti .msg+.msg._success:before {
+    background-color: #9dd36f
+}
+
+#jm .-gn5,
+.bdg._free {
+    color: #6dbd28
+}
+
+#jm .-bg-gn5,
+.bdg._bndl,
+.noti ._success,
+.stpr._ord-s._green ._curr .bdg,
+.stpr._ord-s._green ._curr .circ {
+    background-color: #6dbd28
+}
+
+#jm .-f-gn5,
+.alert._scss .ic,
+.noti ._success .cls .ic {
+    fill: #6dbd28
+}
+
+#jm .-s-gn5 {
+    stroke: #6dbd28
+}
+
+.stpr._ord-s._green ._curr:after {
+    border-color: #6dbd28
+}
+
+#jm .-gn7,
+.bdg._save {
+    color: #4d861c
+}
+
+#jm .-f-gn7 {
+    fill: #4d861c
+}
+
+.alert._dngr,
+.bdg._exp {
+    background-color: #f8e8e7
+}
+
+.bdg._na {
+    color: #cf665b
+}
+
+#jm .-bg-rd3,
+.noti .msg+.msg._error:before {
+    background-color: #cf665b
+}
+
+.bdg._na .ic {
+    fill: #cf665b
+}
+
+#jm .-rd5,
+.bdg._exp,
+.bdg._oos,
+.fi-er,
+.fi-er+.dp~.lbl,
+.fi-er+.fi~.lbl,
+.fi-er+.sel:disabled~.lbl,
+.fi-er+.sel:not(:focus)~.lbl,
+.fi-er+.ta~.lbl {
+    color: #b81a0a
+}
+
+#jm .-bg-rd5,
+.noti ._error {
+    background-color: #b81a0a
+}
+
+#jm .-f-rd5,
+.alert._dngr .ic,
+.bdg._exp .ic,
+.bdg._oos .ic,
+.fi-er~.ic,
+.noti ._error .cls .ic {
+    fill: #b81a0a
+}
+
+.fi-er+.cb+.lbl:after {
+    border-color: #b81a0a
+}
+
+#jm .-yl5,
+.bdg._score {
+    color: #f6b01e
+}
+
+#jm .-f-yl5,
+.alert._wrn .ic,
+.rate .ri:checked~.star svg,
+.rate .ri:focus+.star svg,
+.rate._btns .star:focus svg,
+.rate._btns .star:focus~.star svg {
+    fill: #f6b01e
+}
+
+#jm .-yl7 {
+    color: #af7d15
+}
+
+.btn._fb {
+    background-color: #40588a
+}
+
+.bdg._mall {
+    background-color: #276076
+}
+
+.bdg._glb {
+    background-color: #0040ce
+}
+
+.tab._fsale ._actv {
+    color: #e61601
+}
+
+#jm .-bg-fsale {
+    background-color: #e61601
+}
+
+#jm .-c-xp {
+    color: #ff550c
+}
+
+#jm .-db,
+.__ttl:empty:after,
+.crs._gal-m .img,
+.markup img,
+.popup._open,
+.prd .name:empty:after,
+.prd .prc:empty:after,
+.rng .lbl,
+.sel,
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block
+}
+
+.a,
+.cntd._def .t,
+.prd .prc:empty:after,
+.prd._full .curr,
+.prd._full .old,
+a {
+    display: inline-block
+}
+
+#jm .-di {
+    display: inline
+}
+
+#tog-v:checked~.sc .lst,
+#tog-v:not(:checked)~.sc .grd,
+.cms .tabs>[type=radio]:not(:checked)+label+div,
+.fis[value=""]+.rst,
+.popup,
+.sdw:not(._open),
+.sel:required option[value=""][disabled],
+.ts-w._dn input:not(:checked)~.ts-i,
+[data-ad]:empty,
+[hidden] {
+    display: none
+}
+
+.crs._gal-m,
+textarea {
+    overflow: auto
+}
+
+#jm .-ov,
+button,
+input {
+    overflow: visible
+}
+
+#jm .-elli,
+#jm .-elli2,
+#jm .-elli3,
+#jm .-elli6,
+#jm .-oh,
+#tog-v:checked+.prd-w .prd .img-c,
+._val-btn .cb:checked~.btn,
+.btn._def,
+.btn._fb,
+.btn._prim,
+.btn._sec,
+.cms table,
+.dp+.lbl,
+.dtls,
+.fi+.lbl,
+.fi-w._rad>.fi-er,
+.fis,
+.gal .main,
+.lockscroll,
+.prd-w._list .prd .img-c,
+.prd._box .name,
+.prd._full,
+.prd._full .name,
+.prd._rec .core,
+.prd._rec .name,
+.rate .fi-er,
+.rec-crs .crs,
+.rng .rs,
+.s-menu .itm,
+.sel+.lbl,
+.ta+.lbl,
+.vars .fi-er,
+.xpnd .wpr {
+    overflow: hidden
+}
+
+#jm .-oya,
+.banner._pp .ctt-w,
+.popup .cw .cont,
+.s-menu,
+.sdw {
+    overflow-y: auto
+}
+
+.crs {
+    overflow-y: hidden
+}
+
+#jm .-oxa,
+.cms .tabs>div,
+.crs {
+    overflow-x: auto
+}
+
+._w-spin[data-disabled] .spw~.btn:only-of-type,
+._w-spin[data-disabled] .spw~p,
+.hook {
+    visibility: hidden
+}
+
+.load,
+.stars,
+.stars .in {
+    background-size: cover
+}
+
+.cb:checked+.lbl:after {
+    background-position: 50%
+}
+
+.meter,
+.stars,
+.stars .in {
+    background-position-x: left
+}
+
+.cb:checked+.lbl:after,
+.stars,
+.stars .in {
+    background-repeat: no-repeat
+}
+
+img[data-lazy]._ni {
+    background-image: none
+}
+
+.stars .in {
+    filter: grayscale(1) brightness(109%);
+    -webkit-filter: grayscale(1) brightness(109%)
+}
+
+#jm,
+#jm .-df,
+#tog-v:checked+.prd-w .prd .core,
+._w-spin[data-disabled] .spw,
+.alert,
+.b2top,
+.banner._pp .ctt,
+.btn._i,
+.btn._it,
+.card-w>.ttl-w,
+.cb+.lbl:after,
+.cms .tabs,
+.cms .tabs>label,
+.crs,
+.crs._thumb .itm,
+.crs._thumb .thb,
+.dtls .smry span,
+.fi-w,
+.fif,
+.fk-rad,
+.fk-rad:after,
+.fs,
+.fs .ir-w,
+.gal,
+.gal .main,
+.has-b2top,
+.ic-bg,
+.lwo,
+.noti .msg,
+.popup .cw .t-bar,
+.prd,
+.prd-w._list .prd .core,
+.prd._full .ftr,
+.prd._full .rev,
+.prd._full .spon,
+.prd._rec .core,
+.rad~.lbl:after,
+.rng .ri-w,
+.rng .ris-w,
+.row,
+.s-hdr,
+.s-menu .m-itm,
+.sdw .sdl,
+.sdw .sdtl,
+.stpr .circ,
+.stpr .hd,
+.tab .crs .itm,
+.vars,
+.xpnd .cta-w,
+[data-ad] {
+    display: flex
+}
+
+#jm .-dif,
+.a._more._i,
+.bdg,
+.cb+.lbl,
+.chip,
+.crs._gal-m .itm,
+.crs._gal-th .itm,
+.rad~.lbl,
+.rate,
+[data-bbl],
+a._more._i {
+    display: inline-flex
+}
+
+#jm .-f1 {
+    flex: 1
+}
+
+.gal .main,
+.rng .ri-f {
+    flex: 1 1 0
+}
+
+.prd._full .ftr,
+.row {
+    flex: 0 1 auto
+}
+
+#jm .-fg1,
+#jm main,
+.cola,
+.gal,
+.prd._full .core,
+.prd._rec .core {
+    flex-grow: 1
+}
+
+#jm .-fsh0,
+#jm .foot,
+#jm .hdr,
+#jm main,
+#tog-v:checked+.prd-w .prd .img-c,
+.a._more._i .ic,
+.alert .ic,
+.bdg .ic,
+.btn._i .ic,
+.chip .ic,
+.crs .itm,
+.fis-b,
+.nav-b,
+.popup .cw .cls,
+.prd-w._list .prd .img-c,
+.prd._full .btn,
+.prd._full .spon .ic,
+.stpr .circ,
+a._more._i .ic {
+    flex-shrink: 0
+}
+
+.tab .crs .itm {
+    flex-shrink: 1
+}
+
+.cms .cola {
+    flex-basis: 0
+}
+
+.bdg._ir .ic,
+.chip._ri .ic,
+.fi-er {
+    order: 99
+}
+
+.cms .tabs>label {
+    order: -1
+}
+
+#jm .-j-ctr,
+._w-spin[data-disabled] .spw,
+.bdg,
+.btn._it,
+.chip,
+.gal .main,
+.ic-bg,
+.lwo,
+.prd._full .ftr,
+.s-menu .m-itm,
+.stpr .circ,
+.tab .crs .itm,
+.xpnd .cta-w,
+[data-ad] {
+    justify-content: center
+}
+
+#jm .-j-start {
+    justify-content: flex-start
+}
+
+#jm .-j-end,
+#tog-v:checked+.prd-w .prd .ftr,
+.prd-w._list .prd .ftr {
+    justify-content: flex-end
+}
+
+#jm .-j-bet,
+.dtls .smry span,
+.sdw .sdtl {
+    justify-content: space-between
+}
+
+#jm .-j-spar {
+    justify-content: space-around
+}
+
+#jm .-i-start {
+    align-items: flex-start
+}
+
+#jm .-i-end {
+    align-items: flex-end
+}
+
+#jm .-i-ctr,
+._w-spin[data-disabled] .spw,
+.a._more._i,
+.alert,
+.b2top,
+.banner._pp .ctt,
+.bdg,
+.btn._i,
+.btn._it,
+.card-w>.ttl-w,
+.cb+.lbl,
+.chip,
+.cms .tabs>label,
+.dtls .smry span,
+.fk-rad,
+.fs,
+.ic-bg,
+.lwo,
+.popup .cw .t-bar,
+.popup .cw .ttl,
+.prd._full .ftr,
+.prd._full .rev,
+.prd._full .spon,
+.rad~.lbl,
+.rng .ri-w,
+.s-hdr,
+.s-menu .m-itm,
+.sdw .sdl,
+.sdw .sdtl,
+.stpr .circ,
+.tab .crs .itm,
+a._more._i {
+    align-items: center
+}
+
+#jm .-i-base {
+    align-items: baseline
+}
+
+#jm .-i-str {
+    align-items: stretch
+}
+
+#jm .-c-start {
+    align-content: flex-start
+}
+
+#jm .-c-end {
+    align-content: flex-end
+}
+
+#jm .-c-ctr {
+    align-content: center
+}
+
+#jm .-c-str {
+    align-content: stretch
+}
+
+#jm .-c-bet {
+    align-content: space-between
+}
+
+#jm .-c-spar {
+    align-content: space-around
+}
+
+#jm,
+#jm .-d-co,
+.b2top,
+.crs._thumb ._v,
+.fi-w,
+.fif,
+.gal,
+.gal .main,
+.has-b2top,
+.prd,
+.prd._rec .core {
+    flex-direction: column
+}
+
+#jm .-d-co-rev {
+    flex-direction: column-reverse
+}
+
+#jm .-d-row,
+.fi-w._cb {
+    flex-direction: row
+}
+
+#jm .-d-row-rev,
+.rate {
+    flex-direction: row-reverse
+}
+
+#jm .-me-start,
+#tog-v:checked+.prd-w .prd .img-c,
+.alert .ic,
+.popup .cw .cls,
+.prd-w._list .prd .img-c {
+    align-self: flex-start
+}
+
+#jm .-me-end,
+.prd._full .spon-w {
+    align-self: flex-end
+}
+
+#jm .-me-ctr,
+.crs._gal-m .itm,
+.stpr .bdg {
+    align-self: center
+}
+
+#jm .-me-base {
+    align-self: baseline
+}
+
+#jm .-me-str {
+    align-self: stretch
+}
+
+#jm .-fw-w,
+.cms .tabs,
+.fi-w._cb,
+.prd._full .ftr,
+.row,
+.vars {
+    flex-wrap: wrap
+}
+
+#jm .-fw-nw,
+.cms .tabs>label,
+.crs {
+    flex-wrap: nowrap
+}
+
+#jm .-fw-wr {
+    flex-wrap: wrap-reverse
+}
+
+.banner._pp,
+.lwo,
+.noti,
+.olay,
+.popup,
+.s-menu,
+.sdw {
+    position: fixed
+}
+
+#jm .-hr,
+#jm .-pr,
+#jm .-vr+.-vr,
+#tog-v:checked+.prd-w .prd .camp,
+._val-btn .cb:checked~.btn,
+._w-spin[data-disabled],
+.ar,
+.banner,
+.btn._def,
+.btn._fb,
+.btn._prim,
+.btn._sec,
+.cb+.lbl,
+.cms .tabs>div,
+.fi-br .ic,
+.fi-br button,
+.fi-w,
+.fif,
+.fk-rad,
+.noti .msg+.msg,
+.prd,
+.prd-w._list .prd .camp,
+.prd._full .core,
+.prd._full .img-c,
+.rad~.lbl,
+.rate,
+.rng,
+.rng .rs-w,
+.sdw .sdtl,
+.stars,
+.stpr .stp,
+.tab,
+.vars,
+[data-bbl] {
+    position: relative
+}
+
+#jm .-hr:after,
+#jm .-hr:before,
+#jm .-pa,
+#jm .-vr+.-vr:before,
+._val-btn .cb:checked~.btn:after,
+._w-spin[data-disabled] .spw,
+.ar>img,
+.banner .cls,
+.btn._def:after,
+.btn._fb:after,
+.btn._prim:after,
+.btn._sec:after,
+.cb,
+.cb+.lbl:after,
+.cb+.lbl:before,
+.cms .tabs>[type=radio],
+.dp+.lbl,
+.fi+.lbl,
+.fi-br button,
+.fi-br button:before,
+.fi-w._rad>.fi-er,
+.fif .if,
+.fi~.ic,
+.fk-rad:after,
+.fk-rad:before,
+.hook,
+.noti .msg+.msg:after,
+.noti .msg+.msg:before,
+.prd ._dsct,
+.prd._full ._oos,
+.prd._full ._wslt,
+.prd._full .camp,
+.rad,
+.rad~.lbl:after,
+.rad~.lbl:before,
+.rate .fi-er,
+.rate .ri,
+.rate .star:after,
+.rng .rs,
+.rng .rs-w .paint,
+.rng .rs-w:after,
+.sdw .sdtl:after,
+.sdw .sdtl:before,
+.sel+.lbl,
+.sel~.ic,
+.spin:before,
+.stars .in,
+.stpr .stp:after,
+.ta+.lbl,
+.tab:after,
+.tab:before,
+.vars .fi-er,
+.vars .vi,
+.xpnd .tglr,
+[data-bbl]:before {
+    position: absolute
+}
+
+.hdr {
+    position: -webkit-sticky;
+    position: sticky
+}
+
+.s-menu._w-hdr,
+.sc._tp {
+    top: 56px
+}
+
+#jm .-hr:before,
+#jm .-trbl0,
+#jm .-vr+.-vr:before,
+#jm ._dual.-hr:after,
+#tog-v:checked+.prd-w .prd ._oos,
+._val-btn .cb:checked~.btn:after,
+._w-spin[data-disabled] .spw,
+.ar>img,
+.btn._def:after,
+.btn._fb:after,
+.btn._prim:after,
+.btn._sec:after,
+.fif .if,
+.lwo,
+.noti .msg+._dual.msg:after,
+.noti .msg+.msg:before,
+.olay,
+.prd-w._list .prd ._oos,
+.prd._full .camp,
+.rate .star:after,
+.rng .rs,
+.rng .rs-w:after,
+.s-menu,
+.sc._bt,
+.sc._tp,
+.sdw,
+.sdw ._dual.sdtl:after,
+.sdw .sdtl:before,
+.stars .in,
+.tab:before {
+    left: 0
+}
+
+._ic._icr .ic {
+    left: auto
+}
+
+.fk-rad:after,
+.rad~.lbl:after {
+    left: 2px
+}
+
+#jm .-tlxs {
+    left: 4px
+}
+
+#jm .-pc,
+#jm [data-mid-txt].-hr:after,
+.noti .msg+[data-mid-txt].msg:after,
+.sdw [data-mid-txt].sdtl:after,
+.spin._ctr:before {
+    left: 50%
+}
+
+.cb+.lbl:after {
+    left: -29px
+}
+
+#jm .-hr:before,
+#jm .-trbl0,
+#jm ._dual.-hr:after,
+#tog-v:checked+.prd-w .prd ._oos,
+.banner .cls,
+.lwo,
+.noti .msg+._dual.msg:after,
+.noti .msg+.msg:before,
+.olay,
+.prd-w._list .prd ._oos,
+.rate .star:after,
+.sc._bt,
+.sc._tp,
+.sdw ._dual.sdtl:after,
+.sdw .sdtl:before,
+.tab:after {
+    right: 0
+}
+
+#jm .-trxs,
+.prd._full ._dsct {
+    right: 4px
+}
+
+#jm .-trs,
+.fi-br button,
+.prd._box ._dsct,
+.prd._full ._oos,
+.prd._rec ._dsct {
+    right: 8px
+}
+
+.prd._full ._oos {
+    left: 8px
+}
+
+#jm .-hr._cm:before,
+._ic._icr .ic,
+.vars .fi-er {
+    right: 16px
+}
+
+#jm .-hr._cm:before,
+.dp+.lbl,
+.fi+.lbl,
+.fi~.ic,
+.sel+.lbl,
+.sel~.ic,
+.ta+.lbl,
+.vars .fi-er {
+    left: 16px
+}
+
+[data-bbl]:before {
+    right: 5px
+}
+
+[data-bbl]._offs-r:before {
+    right: -8px
+}
+
+#jm .-hr:before,
+#jm .-trbl0,
+#jm .-vr+.-vr:before,
+#jm [data-mid-txt].-hr:after,
+._val-btn .cb:checked~.btn:after,
+.ar>img,
+.btn._def:after,
+.btn._fb:after,
+.btn._prim:after,
+.btn._sec:after,
+.dp+.lbl,
+.fi+.lbl,
+.hdr,
+.lwo,
+.noti,
+.noti .msg+.msg:before,
+.noti .msg+[data-mid-txt].msg:after,
+.olay,
+.prd._full .camp,
+.sdw,
+.sdw .sdtl:before,
+.sdw [data-mid-txt].sdtl:after,
+.sel+.lbl,
+.stars .in,
+.ta+.lbl,
+.tab:after,
+.tab:before {
+    top: 0
+}
+
+.fk-rad:after,
+.rad~.lbl:after {
+    top: 2px
+}
+
+.cb+.lbl:after,
+[data-bbl]:before {
+    top: 3px
+}
+
+#jm .-tlxs,
+#jm .-trxs,
+.prd._full ._dsct {
+    top: 4px
+}
+
+#jm .-trs,
+.prd._box ._dsct,
+.prd._rec ._dsct,
+.rng .rs-w .paint,
+.rng .rs-w:after {
+    top: 8px
+}
+
+.banner._pp~main .sc._bt {
+    bottom: 65px
+}
+
+.prd._full ._oos {
+    bottom: 8px
+}
+
+#jm .-b0,
+#jm .-trbl0,
+#jm .-vr+.-vr:before,
+#jm ._dual.-hr:after,
+#tog-v:checked+.prd-w .prd ._oos,
+.banner._pp,
+.fi-w._rad>.fi-er,
+.lwo,
+.noti .msg+._dual.msg:after,
+.olay,
+.popup._btm,
+.prd-w._list .prd ._oos,
+.rate .fi-er,
+.rate .star:after,
+.s-menu,
+.sc._bt,
+.sdw,
+.sdw ._dual.sdtl:after,
+.stpr .stp:after,
+.vars .fi-er {
+    bottom: 0
+}
+
+.fi-br button {
+    top: 12px
+}
+
+.fi~.ic,
+.sel~.ic {
+    top: 20px
+}
+
+#jm .-pc,
+#jm .-pcv,
+.banner .cls,
+.popup._ctr,
+.spin._ctr:before,
+[data-bbl]._offs-r:before {
+    top: 50%
+}
+
+#jm .-t100pc-m {
+    top: calc(100% - 16px)
+}
+
+#jm .-hr._bet:before,
+.brcbs .cbs:last-child:after {
+    content: none
+}
+
+#jm .-hr._bet~._bet:before,
+#jm .-hr:before,
+#jm .-vr+.-vr:before,
+#jm ._dual.-hr:after,
+._val-btn .cb:checked~.btn:after,
+.btn._def:after,
+.btn._fb:after,
+.btn._prim:after,
+.btn._sec:after,
+.cb+.lbl:active:before,
+.cb+.lbl:after,
+.cb+.lbl:focus:before,
+.cb:active+.lbl:before,
+.cb:focus+.lbl:before,
+.fi-br button:active:before,
+.fi-br button:focus:before,
+.fk-rad:active:before,
+.fk-rad:after,
+.fk-rad:focus:before,
+.noti .msg+._dual.msg:after,
+.noti .msg+.msg:before,
+.rad:active~.lbl:before,
+.rad:focus~.lbl:before,
+.rad~.lbl:active:before,
+.rad~.lbl:after,
+.rad~.lbl:focus:before,
+.rng .rs-w:after,
+.sdw ._dual.sdtl:after,
+.sdw .sdtl:before,
+.spin:before,
+.stpr .stp:not(:last-child):after,
+.tab:after,
+.tab:before {
+    content: ""
+}
+
+.__ttl:empty:after,
+.prd .name:empty:after,
+.prd .prc:empty:after {
+    content: " "
+}
+
+.bdg._dsct:before {
+    content: "-"
+}
+
+.-bs1,
+.card,
+.crs._bnrs .img,
+.hdr,
+.s-hdr,
+.s-menu,
+.tab {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .05)
+}
+
+._val-btn .cb:checked~.btn,
+.btn._fb,
+.btn._prim {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2)
+}
+
+._val-btn .cb:checked~.btn:focus,
+.btn._prim:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), inset 0 0 0 2px #af6315
+}
+
+._inv:invalid ._prim.btn,
+._inv:invalid ._sec.btn,
+._prim.btn._dis,
+._prim.btn:disabled,
+._sec.btn._dis,
+._sec.btn:disabled,
+.card._no-lns,
+.dp,
+.fi,
+.prd._full ._wslt,
+.rng .ri,
+.sel,
+.ta {
+    box-shadow: none
+}
+
+.popup .cw {
+    box-shadow: 0 4px 8px 1px rgba(0, 0, 0, .15)
+}
+
+.sc {
+    box-shadow: 0 2px 7px 2px rgba(0, 0, 0, .05)
+}
+
+.s-menu .m-itm._act {
+    box-shadow: inset 3px 0 0 0 #f68b1e
+}
+
+.cms table {
+    box-shadow: 0 0 0 1px #d4d4d6
+}
+
+.btn._sec {
+    box-shadow: 0 0 0 1px #f68b1e
+}
+
+.btn._sec:focus {
+    box-shadow: 0 0 0 2px #f68b1e
+}
+
+#jm .-fw,
+#tog-v:checked+.prd-w .prd .info,
+._val-btn .cb:checked~.btn:after,
+.ar,
+.ar>img,
+.banner,
+.btn._def:after,
+.btn._fb:after,
+.btn._prim:after,
+.btn._sec:after,
+.card-w>.ttl-w,
+.card._fw,
+.cms .tabs>div,
+.crs,
+.crs._gal-m .img[data-lazy],
+.crs._gal-m .itm,
+.crs._prd-i .itm:only-child,
+.crs._prd-i .itm:only-child .img,
+.dp,
+.fi,
+.fi-er,
+.fis,
+.fs,
+.fs .ir-w,
+.gr,
+.markup table,
+.meter,
+.noti,
+.popup,
+.prd .img-c .img,
+.prd-w._list .prd .info,
+.prd._full .ftr,
+.rng .ri,
+.rng .rs,
+.rng .rs-w,
+.rng .rs-w:after,
+.row,
+.s-menu .m-itm,
+.sel,
+.stars .in,
+.ta,
+.tab .crs .itm {
+    width: 100%
+}
+
+.prd .prc:empty:after {
+    width: 50%
+}
+
+.crs._thumb ._v {
+    max-width: 148px
+}
+
+#jm .-mxw-150 {
+    max-width: 150px
+}
+
+#jm .-mxh-150 {
+    max-height: 150px
+}
+
+#jm .-mxh-250 {
+    max-height: 250px
+}
+
+.crs._thumb ._h {
+    max-width: 300px;
+    min-width: 228px
+}
+
+.crs._prd-i .itm .img {
+    max-width: 450px
+}
+
+._w-spin[data-disabled] .spw {
+    min-width: 100%
+}
+
+#jm .-img-fl-mw,
+#jm .-mw,
+.cola,
+.markup img,
+.prd._full .ftr,
+.row,
+img[data-lazy] {
+    max-width: 100%
+}
+
+.ar {
+    height: 0
+}
+
+#jm .-vr+.-vr:before {
+    width: 2px
+}
+
+.spin:before,
+.spinner,
+.tab:after,
+.tab:before {
+    width: 16px
+}
+
+.cb+.lbl:after {
+    width: 18px
+}
+
+.bdg._dsct._xs,
+.rng .ri {
+    min-width: 0
+}
+
+.bdg._dsct._sm {
+    min-width: 32px
+}
+
+.bdg._dsct,
+.vars .vl {
+    min-width: 40px
+}
+
+.crs._thumb ._v {
+    min-width: 78px
+}
+
+.fi._fks {
+    min-width: calc(32px + 5ch)
+}
+
+#jm .-hr:before,
+#jm ._dual.-hr:after,
+.noti .msg+._dual.msg:after,
+.noti .msg+.msg:before,
+.sdw ._dual.sdtl:after,
+.sdw .sdtl:before {
+    height: 1px
+}
+
+.spin:before,
+.spinner,
+.stars._m {
+    height: 16px
+}
+
+.cb+.lbl:after,
+.rng .rs,
+.rng .rs-w {
+    height: 18px
+}
+
+[data-bbl]:before {
+    min-height: 12px
+}
+
+.bdg,
+.cb+.lbl,
+.fk-rad,
+.prd._full .spon-w,
+.rad~.lbl {
+    min-height: 24px
+}
+
+[data-bbl]:before {
+    min-width: 12px
+}
+
+.chip {
+    min-height: 32px
+}
+
+.fk-rad:after,
+.rad~.lbl:after {
+    height: 20px
+}
+
+.bdg._sm {
+    min-height: 20px
+}
+
+.spin._med:before {
+    width: 24px
+}
+
+.fis,
+.spin._med:before {
+    height: 24px
+}
+
+.crs._thumb ._v {
+    width: 21vw
+}
+
+.crs._thumb ._h {
+    width: 70vw
+}
+
+.crs._bnrs .img {
+    width: 80vw
+}
+
+.crs._prd-i .itm .img {
+    width: 85vw
+}
+
+.sdw {
+    width: 87vw
+}
+
+.fk-rad:after,
+.rad~.lbl:after {
+    width: 20px
+}
+
+.load {
+    height: 31px;
+    width: 31px
+}
+
+#jm .-w40,
+.cb+.lbl:before,
+.crs._gal-th._s .img,
+.fi-br button:before,
+.fk-rad:before,
+.rad~.lbl:before {
+    width: 40px
+}
+
+.cb+.lbl:before,
+.crs._gal-th._s .img,
+.fi-br button:before,
+.fk-rad:before,
+.rad~.lbl:before {
+    height: 40px
+}
+
+.cms .tabs>label,
+.dp,
+.fi,
+.sel,
+.tab .crs .itm {
+    height: 48px
+}
+
+.stars._s {
+    width: 58px
+}
+
+#jm .-wh70,
+.crs._gal-th._m .img {
+    width: 70px
+}
+
+#tog-v:checked+.prd-w .prd .img-c .img,
+.__ttl:empty:after,
+.prd-w._list .prd .img-c .img {
+    width: 120px
+}
+
+.s-menu._def .m-itm {
+    height: 64px
+}
+
+.banner._pp {
+    height: 65px
+}
+
+#jm .-wh70,
+.crs._gal-th._m .img {
+    height: 70px
+}
+
+#jm .-fh,
+._val-btn .cb:checked~.btn:after,
+.ar>img,
+.banner._pp .ctt-w,
+.btn._def:after,
+.btn._fb:after,
+.btn._prim:after,
+.btn._sec:after,
+.gal .main,
+.hook,
+.prd._full,
+.prd._rec,
+.stars .in,
+body,
+html {
+    height: 100%
+}
+
+.fi-w._cb,
+.fi-w._cb._n-er,
+.fi-w._n-er,
+.fi-w._rad {
+    min-height: auto
+}
+
+.sdw .sdtl {
+    min-height: 40px
+}
+
+.banner._pp .ctt,
+.sdw .sdl {
+    min-height: 48px
+}
+
+.hdr .main {
+    min-height: 56px
+}
+
+.stpr .stp:not(:last-child) {
+    min-height: 64px
+}
+
+.fi-w {
+    min-height: 80px
+}
+
+#jm,
+._w-spin[data-disabled] .spw {
+    min-height: 100%
+}
+
+#jm [data-mid-txt].-hr:before,
+.noti .msg+[data-mid-txt].msg:before,
+.rng .rs-w .paint,
+.rng .rs-w:after,
+.sdw [data-mid-txt].sdtl:before {
+    height: 2px
+}
+
+.stars._s {
+    height: 10px
+}
+
+#jm .-wh100 {
+    width: 100px
+}
+
+.stars._m {
+    width: 93px
+}
+
+.prd-w._list .prd._alt .img-c .img {
+    width: 94px
+}
+
+#jm .-h100,
+#jm .-wh100,
+.ta {
+    height: 100px
+}
+
+#jm .-ha,
+#jm .-img-fl-mw,
+.prd .img-c .img {
+    height: auto
+}
+
+#jm .-wa,
+.vars .fi-er {
+    width: auto
+}
+
+[data-bbl]:before {
+    max-height: 18px
+}
+
+.bdg._xs {
+    min-height: 18px
+}
+
+.xpnd .wpr._maxh-47 {
+    max-height: 47px
+}
+
+.xpnd .wpr._maxh-176 {
+    max-height: 176px
+}
+
+.xpnd .tglr:checked+.wpr {
+    max-height: none
+}
+
+.crs._bnrs .itm:only-child .img,
+.y-ifm {
+    width: calc(100vw - 16px)
+}
+
+.y-ifm {
+    height: calc(100vw - 16px)
+}
+
+#jm .-h2l {
+    height: 2.8em
+}
+
+#jm .-mh2l {
+    max-height: 2.8em
+}
+
+#jm .-mh-6l {
+    max-height: 8.52em
+}
+
+.dp+.lbl,
+.fi+.lbl,
+.sel+.lbl,
+.ta+.lbl {
+    max-width: calc(100% - 32px)
+}
+
+#jm .-vh100-hdr {
+    height: calc(100vh - 56px)
+}
+
+.noti {
+    z-index: 100
+}
+
+.lwo,
+.popup,
+.popup .cw,
+.sdw {
+    z-index: 90
+}
+
+.olay {
+    z-index: 80
+}
+
+.-zi7,
+.hdr {
+    z-index: 70
+}
+
+.banner._pp {
+    z-index: 50
+}
+
+#jm ._zi1.-hr:before,
+.-zi1,
+.fi-br .ic,
+.noti .msg+._zi1.msg:before,
+.sc,
+.sdw ._zi1.sdtl:before {
+    z-index: 10
+}
+
+.cb,
+.cms .tabs>[type=radio],
+.fif .if,
+.rad,
+.rate .ri,
+.vars .vi,
+.xpnd .tglr {
+    z-index: -1
+}
+
+.prd._full ._wslt,
+.rng .rs-w .paint {
+    z-index: 1
+}
+
+#jm .-pan,
+[type=checkbox],
+[type=radio],
+blockquote,
+body,
+dd,
+dl,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend,
+li,
+ol,
+p,
+pre,
+ul {
+    padding: 0
+}
+
+#jm .-paxs,
+.cntd._def .t,
+.crs._thumb .thb,
+.prd._full ._wslt {
+    padding: 4px
+}
+
+#jm .-pas,
+.alert,
+.btn._def,
+.btn._i._def._md,
+.cms td,
+.cms th,
+.crs._thumb ._h,
+.dtls .smry,
+.fi-br button,
+.fis-b,
+.nav-b,
+.noti .cls,
+.popup .cw .cls,
+.prd._full .ftr,
+.prd._rec .prc,
+.rng .ri-w,
+.s-hdr,
+.s-menu .m-itm,
+.vars .vl,
+.y-ifm {
+    padding: 8px
+}
+
+#jm .-pam,
+.banner .cls,
+.btn {
+    padding: 16px
+}
+
+#jm .-pal {
+    padding: 24px
+}
+
+#jm .-ptn,
+#jm .-pvn {
+    padding-top: 0
+}
+
+#jm .-ptxxs,
+.alert .text,
+.prd._full .curr,
+.prd._full .old,
+.prd._full .prc,
+[data-bbl]:before {
+    padding-top: 2px
+}
+
+#jm .-ptxs,
+#jm .-pvxs,
+.brcbs .cbs,
+.btn._i._def,
+.fi-er,
+.markup h1,
+.markup h2,
+.markup h3,
+.markup p,
+.meter._xs,
+.noti .msg,
+.prd-w._list .prd._alt .sllr+.var,
+.prd._box .prc,
+.prd._full .info,
+.prd._full .rev,
+.prd._full .shipp,
+.prd._full .spon {
+    padding-top: 4px
+}
+
+#jm .-pts,
+#jm .-pvs,
+.banner._pp,
+.btn._i._md,
+.btn._sm,
+.crs._gal-th._s,
+.fi-w,
+.meter._s,
+.popup .cw,
+.popup .cw .ttl,
+.prd._box .name,
+.prd._rec .name,
+.rate .star:after,
+.rng .lbl,
+.sdw .sdtl,
+.stpr .dsc,
+.xpnd,
+.xpnd .cta-w {
+    padding-top: 8px
+}
+
+#jm .-ptm,
+#jm .-pvm,
+.cms .tabs>div,
+.crs._gal-th._m,
+.gal .count,
+.ta {
+    padding-top: 16px
+}
+
+#jm .-ptl,
+#jm .-pvl {
+    padding-top: 24px
+}
+
+#jm .-phn,
+#jm .-prn,
+#tog-v:checked+.prd-w .prd .ftr,
+._no-g>[class*=col],
+._no-go>[class*=col]:last-child,
+.cms .cola:last-child,
+.prd-w._list .prd .ftr,
+.prd._full .stk,
+.prd._rec .img-c,
+.row [class*=col].row {
+    padding-right: 0
+}
+
+#jm .-phxs,
+#jm .-prxs,
+.bdg,
+.crs._bnrs,
+.crs._prd-i,
+.crs._prd-i .itm,
+.crs._prd-i .itm:last-child,
+.crs._thumb .itm:last-child,
+.dp+.lbl,
+.fi+.lbl,
+.prd._full .curr,
+.sel+.lbl,
+.ta+.lbl,
+.vars .fi-er,
+[data-bbl]:before {
+    padding-right: 4px
+}
+
+#jm .-phs,
+#jm .-prs,
+#tog-v:checked+.prd-w .prd .ftr>:not(._def),
+.b2top,
+.btn._def._sm,
+.btn._sm._sec,
+.card-w>.ttl,
+.card-w>.ttl-w>.ttl,
+.chip,
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.cola,
+.fis._sm,
+.gr,
+.noti .msg,
+.popup._btm .t-bar,
+.popup._ctr .t-bar,
+.prd .stk,
+.prd-w._list .prd .ftr>:not(._def),
+.prd._full .info,
+.prd._full .spon,
+.prd._rec .name,
+.rate .star,
+.rng .ri-f:first-child,
+[class*=col].row {
+    padding-right: 8px
+}
+
+#jm .-phm,
+#jm .-prm,
+#jm [data-mid-txt].-hr:after,
+.banner._pp,
+.brcbs,
+.btn._md,
+.btn._sm,
+.cms .tabs>label,
+.crs._gal-th .itm:last-child,
+.fi,
+.fi-er,
+.fis._def,
+.foot,
+.gal .count,
+.noti .msg+[data-mid-txt].msg:after,
+.prd._box .name,
+.prd._box .prc,
+.sdw .sdl,
+.sdw .sdtl,
+.sdw [data-mid-txt].sdtl:after,
+.ta,
+.tab .crs .itm {
+    padding-right: 16px
+}
+
+#jm .-phl,
+#jm .-prl,
+.btn._i span {
+    padding-right: 24px
+}
+
+.banner._pp .ctt-w,
+.prd._box .img-c {
+    padding-right: 32px
+}
+
+.fi-w._cb._n-er {
+    padding-bottom: auto
+}
+
+#jm .-pbn,
+#jm .-pvn,
+.vars._n-er {
+    padding-bottom: 0
+}
+
+.prd._full .curr,
+.prd._full .old,
+.prd._full .prc,
+[data-bbl]:before {
+    padding-bottom: 2px
+}
+
+#jm .-pbxs,
+#jm .-pvxs,
+.brcbs .cbs,
+.btn._i._def,
+.cms .tabs>div,
+.fi-er,
+.markup h1,
+.markup h2,
+.markup h3,
+.markup p,
+.noti .msg,
+.prd._full .bdg-w,
+.prd._full .core,
+.prd._full .info,
+.prd._full .rev,
+.prd._full .spon,
+.ta {
+    padding-bottom: 4px
+}
+
+#jm .-pbs,
+#jm .-pvs,
+.b2top,
+.banner._pp,
+.btn._i._md,
+.btn._sm,
+.card-w>.ttl,
+.card-w>.ttl-w>.ttl,
+.crs._gal-th._s,
+.fi-w._n-er,
+.foot,
+.popup .cw .ttl,
+.prd._box .prc,
+.prd._rec,
+.rate .star:after,
+.rng .lbl,
+.sdw .sdtl,
+.xpnd {
+    padding-bottom: 8px
+}
+
+#jm .-pbm,
+#jm .-pvm,
+.crs._gal-th._m,
+.rng .ris-w,
+.stpr .stp:not(:last-child) {
+    padding-bottom: 16px
+}
+
+#jm .-pbl,
+#jm .-pvl,
+.vars {
+    padding-bottom: 24px
+}
+
+#jm .-phn,
+#jm .-pln,
+#tog-v:checked+.prd-w .prd .ftr,
+._no-g>[class*=col],
+._no-go>[class*=col]:first-child,
+.cms .cola:first-child,
+.fi-w._cb .fi-er,
+.prd-w._list .prd .ftr,
+.prd._full .stk,
+.prd._rec .img-c,
+.row [class*=col].row {
+    padding-left: 0
+}
+
+#jm .-plxxs {
+    padding-left: 2px
+}
+
+#jm .-phxs,
+#jm .-plxs,
+.bdg,
+.crs._bnrs,
+.crs._prd-i,
+.crs._prd-i .itm,
+.crs._thumb .itm:first-child,
+.dp+.lbl,
+.fi+.lbl,
+.sel+.lbl,
+.ta+.lbl,
+.vars .fi-er,
+[data-bbl]:before {
+    padding-left: 4px
+}
+
+#jm .-phs,
+#jm .-pls,
+#tog-v:checked+.prd-w .prd .ftr>:not(._def),
+.a._more._i,
+.alert .msg,
+.b2top,
+.btn._def._sm,
+.btn._sm._sec,
+.card-w>.ttl,
+.card-w>.ttl-w>.ttl,
+.chip,
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.cola,
+.crs._gal-th .itm,
+.fis._def,
+.fis._sm,
+.gr,
+.noti .msg,
+.prd .stk,
+.prd-w._list .prd .ftr>:not(._def),
+.prd._full .info,
+.prd._full .spon,
+.prd._rec .name,
+.rate .star,
+.rng .ri-f:last-child,
+[class*=col].row,
+a._more._i {
+    padding-left: 8px
+}
+
+#jm .-phm,
+#jm .-plm,
+#jm [data-mid-txt].-hr:after,
+._ic._icr .fi,
+._ic._icr .sel,
+.banner._pp,
+.brcbs,
+.btn._md,
+.btn._sm,
+.cms .tabs>label,
+.crs._gal-th .itm:first-child,
+.dp,
+.fi,
+.fi-er,
+.foot,
+.markup ol,
+.markup ul,
+.noti .msg+[data-mid-txt].msg:after,
+.popup._btm .t-bar,
+.prd._box .name,
+.prd._box .prc,
+.sdw .sdl,
+.sdw .sdtl,
+.sdw [data-mid-txt].sdtl:after,
+.sel,
+.ta,
+.tab .crs .itm {
+    padding-left: 16px
+}
+
+#jm .-phl,
+#jm .-pll,
+.popup._ctr .t-bar {
+    padding-left: 24px
+}
+
+.fi-w._cb,
+.fi-w._rad>.fi-er,
+.fk-rad,
+.prd._box .img-c,
+.rad~.lbl {
+    padding-left: 32px
+}
+
+#jm .-man,
+blockquote,
+body,
+button,
+dd,
+dl,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+optgroup,
+p,
+pre,
+select,
+textarea,
+ul {
+    margin: 0
+}
+
+#jm .-maxs,
+.crs._thumb ._h,
+.prd._box,
+.vars .vl {
+    margin: 4px
+}
+
+#jm .-mas {
+    margin: 8px
+}
+
+#jm .-mam {
+    margin: 16px
+}
+
+#jm .-mal {
+    margin: 24px
+}
+
+#jm .-mta,
+.has-b2top>.b2top,
+.prd._full .spon-w,
+.prd._rec .stk {
+    margin-top: auto
+}
+
+#jm .-mtn,
+#jm .-mvn,
+#tog-v:checked+.prd-w .prd .btn,
+.prd-w._list .prd .btn {
+    margin-top: 0
+}
+
+#jm .-mtxs,
+#jm .-mvxs,
+#jm .-vr+.-vr:before,
+.prd .meter,
+.prd._full ._glb,
+.prd._full ._mall,
+.prd._full .camp,
+.prd._full .name,
+.prd._full .xprss,
+.stpr .bdg {
+    margin-top: 4px
+}
+
+#jm .-mts,
+#jm .-mvs,
+#tog-v:checked+.prd-w .prd .img-c,
+.cb,
+.fk-rad,
+.markup table,
+.popup._fh .cont,
+.prd-w._list .prd .img-c,
+.rad,
+.xpnd .tglr {
+    margin-top: 8px
+}
+
+#jm .-mtm,
+#jm .-mvm {
+    margin-top: 16px
+}
+
+#jm .-mtl,
+#jm .-mvl {
+    margin-top: 24px
+}
+
+#jm .-mtxl {
+    margin-top: 32px
+}
+
+#jm .-mra {
+    margin-right: auto
+}
+
+#jm .-mhn,
+#jm .-mrn,
+.bdg._ir .ic,
+.chip._ri .ic {
+    margin-right: 0
+}
+
+#jm .-mhxs,
+#jm .-mrxs,
+#tog-v:checked+.prd-w .prd ._glb,
+#tog-v:checked+.prd-w .prd ._mall,
+.bdg .ic,
+.brcbs .cbs:after,
+.cb+.lbl,
+.chip .ic,
+.cntd._def .t,
+.crs._bnrs .itm,
+.prd-w._list .prd ._glb,
+.prd-w._list .prd ._mall,
+.prd._full .stars,
+.prd._rec,
+.tab .ic {
+    margin-right: 4px
+}
+
+#jm .-mhs,
+#jm .-mrs,
+#jm .row.-hr:after,
+#jm .row.-hr:before,
+#jm [class*=col].-hr:after,
+#jm [class*=col].-hr:before,
+.fs .ir-w,
+.fs .rst,
+.noti .msg+.row.msg:after,
+.noti .msg+.row.msg:before,
+.noti .msg+[class*=col].msg:after,
+.noti .msg+[class*=col].msg:before,
+.sdw .row.sdtl:after,
+.sdw .row.sdtl:before,
+.sdw .sdl [data-bbl],
+.sdw .sdl>.ic,
+.sdw [class*=col].sdtl:after,
+.sdw [class*=col].sdtl:before {
+    margin-right: 8px
+}
+
+#jm .-mhm,
+#jm .-mrm,
+.popup._ctr .cw,
+.stpr .circ,
+[data-bbl]._offs-r {
+    margin-right: 16px
+}
+
+#jm .-mhl,
+#jm .-mrl {
+    margin-right: 24px
+}
+
+#jm .-mba {
+    margin-bottom: auto
+}
+
+#jm .-mbn,
+#jm .-mvn,
+#tog-v:checked+.prd-w .prd .meter,
+.fi-er+.ta,
+.fi-w._cb .fi-er~:last-of-type,
+.fi-w._cb._n-er>:last-child,
+.prd-w._list .prd .meter {
+    margin-bottom: 0
+}
+
+#jm .-mbxs,
+#jm .-mvxs,
+#jm .-vr+.-vr:before,
+#tog-v:checked+.prd-w .prd .img-c,
+.prd-w._list .prd .img-c,
+.prd._full .name,
+.prd._full .spon-w,
+.stpr .bdg {
+    margin-bottom: 4px
+}
+
+#jm .-mbs,
+#jm .-mvs,
+.fk-rad,
+.markup table,
+.prd._full .meter {
+    margin-bottom: 8px
+}
+
+#jm .-mbm,
+#jm .-mvm {
+    margin-bottom: 16px
+}
+
+#jm .-mbl,
+#jm .-mvl,
+.fi-w._cb>:last-child,
+.ta {
+    margin-bottom: 24px
+}
+
+#jm .-mla,
+.noti .cls,
+.popup .cw .cls {
+    margin-left: auto
+}
+
+#jm .-mhn,
+#jm .-mln,
+#tog-v:checked+.prd-w .prd .camp,
+.prd-w._list .prd .camp {
+    margin-left: 0
+}
+
+#jm .-mhxs,
+#jm .-mlxs,
+.bdg._ir .ic,
+.brcbs .cbs:after,
+.chip._ri .ic,
+.cntd._def .t,
+.crs._bnrs .itm,
+.prd._full .camp,
+.prd._full .spon .ic,
+.prd._rec {
+    margin-left: 4px
+}
+
+#jm .-mhs,
+#jm .-mls,
+#jm .row.-hr:after,
+#jm .row.-hr:before,
+#jm [class*=col].-hr:after,
+#jm [class*=col].-hr:before,
+#tog-v:checked+.prd-w .prd .img-c,
+.noti .msg+.row.msg:after,
+.noti .msg+.row.msg:before,
+.noti .msg+[class*=col].msg:after,
+.noti .msg+[class*=col].msg:before,
+.prd-w._list .prd .img-c,
+.sdw .row.sdtl:after,
+.sdw .row.sdtl:before,
+.sdw [class*=col].sdtl:after,
+.sdw [class*=col].sdtl:before {
+    margin-left: 8px
+}
+
+#jm .-mhm,
+#jm .-mlm,
+.popup._ctr .cw {
+    margin-left: 16px
+}
+
+#jm .-mhl,
+#jm .-mll {
+    margin-left: 24px
+}
+
+#jm .-mlxl {
+    margin-left: 32px
+}
+
+.bdg._xs {
+    padding-top: 1px
+}
+
+.cms .tabs>div {
+    padding-right: 1px
+}
+
+._is,
+.cms .tabs>div {
+    padding-left: 1px
+}
+
+.sel {
+    padding-right: 40px
+}
+
+.rate._msg {
+    padding-bottom: 56px
+}
+
+.dp,
+.fi {
+    padding-bottom: 14px;
+    padding-top: 14px
+}
+
+#jm .-pv12,
+.brcbs,
+.btn._i,
+.btn._md,
+.sdw .sdl {
+    padding-top: 12px
+}
+
+#jm .-ph12,
+.btn._i._sqr,
+.vars {
+    padding-right: 12px
+}
+
+#jm .-pv12,
+.brcbs,
+.btn._i,
+.btn._md,
+.sdw .sdl {
+    padding-bottom: 12px
+}
+
+#jm .-ph12,
+.btn._i._sqr,
+.vars {
+    padding-left: 12px
+}
+
+._ic .fi,
+._ic .sel {
+    padding-left: 48px
+}
+
+._ic._icr .fi,
+._ic._icr .sel,
+.fi-br .fi {
+    padding-right: 48px
+}
+
+.btn._i span,
+.crs._gal-m .img,
+.gr,
+.markup img,
+.prd._box .prc:empty:after {
+    margin: 0 auto
+}
+
+.bdg._xs .ic {
+    margin-bottom: 1px
+}
+
+#jm .-maxxs {
+    margin: 2px
+}
+
+#jm .-pc,
+#jm [data-mid-txt].-hr:after,
+.noti .msg+[data-mid-txt].msg:after,
+.sdw [data-mid-txt].sdtl:after {
+    transform: translate(-50%, -50%)
+}
+
+.load {
+    animation: load 1.5s infinite
+}
+
+._val-btn .cb:checked~.btn,
+.btn._def,
+.btn._fb,
+.btn._prim,
+.btn._sec {
+    transform: translateZ(0)
+}
+
+.stars,
+.tab:after {
+    transform: scaleX(-1) translateZ(0)
+}
+
+._val-btn .cb:checked~.btn:focus:active:after,
+.btn._def:focus:active:after,
+.btn._fb:focus:active:after,
+.btn._prim:focus:active:after,
+.btn._sec:focus:active:after {
+    transform: scale(0)
+}
+
+._val-btn .cb:checked~.btn:after,
+.btn._def:after,
+.btn._def:focus:not(:active):after,
+.btn._fb:after,
+.btn._prim:after,
+.btn._sec:after {
+    transform: scale(10)
+}
+
+#jm .-pcv,
+.banner .cls,
+.popup._ctr {
+    transform: translate3d(0, -50%, 0)
+}
+
+.popup .cw {
+    transform: rotate(0)
+}
+
+[data-bbl]:before {
+    transform: translate3d(50%, -50%, 0)
+}
+
+.dtls[open] .arr {
+    transform: scaleY(-1) translateZ(0)
+}
+
+.rate .star {
+    transition: all .2s ease-out
+}
+
+._val-btn .cb:checked~.btn:after,
+.btn._def:after,
+.btn._fb:after,
+.btn._prim:after,
+.btn._sec:after {
+    transition: transform 1s, opacity 1s
+}
+
+._val-btn .cb:checked~.btn:focus:active:after,
+.btn._def:focus:active:after,
+.btn._def:focus:not(:active):after,
+.btn._fb:focus:active:after,
+.btn._prim:focus:active:after,
+.btn._sec:focus:active:after {
+    transition: 0s
+}
+
+#jm .-ltr,
+.bdg._dsct,
+.bdg._score {
+    direction: ltr
+}
+
+.btn,
+.dp,
+.fi,
+.rng .ri,
+.sel,
+.ta,
+body,
+button {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif
+}
+
+.cntd._def .t {
+    font-family: BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif
+}
+
+#jm .-b,
+.bdg._score,
+.markup a,
+[data-bbl]:before {
+    font-weight: 700
+}
+
+#jm .-m,
+#jm [data-mid-txt].-hr:after,
+.alert .tit,
+.bdg,
+.btn,
+.card-w>.ttl,
+.card-w>.ttl-w>.ttl,
+.chip,
+.cms .tabs>label,
+.cms th,
+.cntd._def,
+.dp+.lbl,
+.fi+.lbl,
+.markup em,
+.noti .msg+[data-mid-txt].msg:after,
+.popup .cw .ttl,
+.prd .prc,
+.prd._full .spon,
+.rate .star:after,
+.rng .lbl,
+.s-menu .m-itm._act,
+.sdw [data-mid-txt].sdtl:after,
+.sel+.lbl,
+.ta+.lbl,
+.tab,
+.tab ._actv,
+.vars .vl {
+    font-weight: 500
+}
+
+#jm .-r,
+.bdg._score:after,
+.prd._full .old,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400
+}
+
+#jm .-n,
+.markup em {
+    font-style: normal
+}
+
+#jm .-upp,
+#jm [data-mid-txt].-hr:after,
+.bdg._bndl,
+.bdg._dfl,
+.bdg._exp,
+.bdg._fee,
+.bdg._free,
+.bdg._itms,
+.bdg._lim,
+.bdg._na,
+.bdg._o-st,
+.bdg._oos,
+.bdg._save,
+.btn,
+.card-w>.ttl,
+.card-w>.ttl-w>.ttl,
+.lbl:first-letter,
+.noti .msg+[data-mid-txt].msg:after,
+.rng .lbl,
+.sdw [data-mid-txt].sdtl:after,
+.tab {
+    text-transform: uppercase
+}
+
+#jm .-cap {
+    text-transform: capitalize
+}
+
+button,
+select {
+    text-transform: none
+}
+
+#jm .-tac,
+.btn,
+.cms table,
+.crs._thumb ._v,
+.prd._box,
+.rate .star:after,
+.s-menu .itm,
+.vars .vl {
+    text-align: center
+}
+
+#jm .-tar,
+.gal .count {
+    text-align: right
+}
+
+#jm .-tal,
+.dp,
+.fif,
+.prd._full .curr,
+.prd._full .old,
+.prd._rec {
+    text-align: left
+}
+
+@supports(-webkit-line-clamp:2) {
+    #jm .-elli2,
+    .prd._full .name {
+        display: -webkit-box;
+        white-space: normal;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2
+    }
+}
+
+#jm .-elli,
+#jm .-elli3,
+#jm .-elli6,
+.dp+.lbl,
+.fi+.lbl,
+.fi-w._rad>.fi-er,
+.prd._box .name,
+.prd._rec .name,
+.rate .fi-er,
+.s-menu .itm,
+.sel+.lbl,
+.ta+.lbl,
+.tab .crs .itm,
+.vars .fi-er {
+    white-space: nowrap
+}
+
+#jm .-ws-p,
+.__ttl:empty:after,
+.prd .name:empty:after,
+.prd .prc:empty:after {
+    white-space: pre
+}
+
+#jm .-ws-pl {
+    white-space: pre-line
+}
+
+#jm .-wb-ba {
+    word-break: break-all
+}
+
+#jm .-elli,
+#jm .-elli2,
+#jm .-elli3,
+#jm .-elli6,
+.fi-w._rad>.fi-er,
+.prd._box .name,
+.prd._full .name,
+.prd._rec .name,
+.rate .fi-er,
+.s-menu .itm,
+.vars .fi-er {
+    text-overflow: ellipsis
+}
+
+#jm .-ti0 {
+    text-indent: 0
+}
+
+.btn._i._def,
+.btn._i._rnd,
+.btn._it {
+    text-indent: 8px
+}
+
+.a,
+a {
+    -webkit-text-decoration: none;
+    text-decoration: none
+}
+
+#jm .-und,
+.a._link,
+.markup a,
+a._link {
+    -webkit-text-decoration: underline;
+    text-decoration: underline
+}
+
+#jm .-lthr,
+.prd._full .old {
+    -webkit-text-decoration: line-through;
+    text-decoration: line-through
+}
+
+#jm .-lh-1 {
+    line-height: 1
+}
+
+[data-bbl]:before {
+    line-height: 1.1
+}
+
+.fi._fks {
+    line-height: 1.2
+}
+
+#jm .-h2l,
+#jm .-mh2l,
+.fi-w {
+    line-height: 1.4
+}
+
+#jm .-mh-6l {
+    line-height: 1.42
+}
+
+#jm .-lh-15 {
+    line-height: 1.5
+}
+
+.btn,
+.fi-er {
+    line-height: 1rem
+}
+
+#jm .-ubpt,
+.bdg._fee,
+.prd._box .prc,
+.prd._full .curr,
+.prd._full .old,
+.prd._rec .prc,
+[data-bbl]:before {
+    unicode-bidi: plaintext
+}
+
+#jm .-fs0,
+.banner,
+.crs._bnrs .itm,
+.fi-br button,
+.fi-w,
+.fis-b,
+.fs .rst,
+.ic-bg,
+.meter,
+.nav-b,
+.noti .cls,
+.popup .cw .cls,
+.prd .img-c,
+.prd._full .info,
+.rate .star {
+    font-size: 0
+}
+
+#jm .-fs10,
+.b2top,
+.bdg._xs,
+.prd._full .spon,
+.prd._full .stk,
+[data-bbl]:before {
+    font-size: .625rem
+}
+
+#jm .-fs11 {
+    font-size: .6875rem
+}
+
+#jm .-fs12,
+#jm [data-mid-txt].-hr:after,
+.alert,
+.alert .text,
+.banner._pp,
+.bdg._sm,
+.btn._sm,
+.card-w>.ttl,
+.card-w>.ttl-w>.ttl,
+.cms table,
+.fi-er,
+.foot,
+.gal .count,
+.lbl,
+.noti .msg+[data-mid-txt].msg:after,
+.prd .name,
+.prd .stk,
+.prd-w._list .prd._alt .sllr,
+.prd-w._list .prd._alt .var,
+.prd._full .old,
+.prd._full .rev,
+.prd._full .shipp,
+.s-menu .m-itm,
+.sdw .sdtl,
+.sdw [data-mid-txt].sdtl:after,
+.stpr .dsc,
+.vars {
+    font-size: .75rem
+}
+
+#jm .-fs14,
+.bdg,
+.brcbs,
+.btn,
+.cb+.lbl,
+.chip,
+.fis._sm,
+.noti,
+.rad~.lbl,
+.rng .ri,
+body {
+    font-size: .875rem
+}
+
+#jm .-fs15 {
+    font-size: .9375rem
+}
+
+#jm .-fs16,
+.cntd._def,
+.dp,
+.fi,
+.fis._def,
+.popup._btm .ttl,
+.prd._full .curr,
+.prd._rec .prc,
+.rate .star:after,
+.sel,
+.ta {
+    font-size: 1rem
+}
+
+#jm .-fs20,
+.cntd._def .s,
+.popup._ctr .ttl {
+    font-size: 1.25rem
+}
+
+#jm .-fs24 {
+    font-size: 1.5rem
+}
+
+#jm .-fs29 {
+    font-size: 1.8125rem
+}
+
+#jm .-pen,
+._inv:invalid .btn,
+._val-btn .cb:checked~.btn:after,
+._w-spin[data-disabled] .spw~.btn,
+.btn._def:after,
+.btn._dis,
+.btn._fb:after,
+.btn._prim:after,
+.btn._sec:after,
+.btn:disabled,
+.rng .rs,
+.spin,
+.ts-w._dis input:not(:checked)~.lbl+* .ts-i {
+    pointer-events: none
+}
+
+._val-btn .cb:checked~.btn {
+    pointer-events: all
+}
+
+.dp,
+.fi,
+.sel,
+.ta {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.a,
+.btn,
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+#tog-v:checked+.prd-w .prd ._glb,
+#tog-v:checked+.prd-w .prd ._mall,
+#tog-v:checked+.prd-w .prd .camp,
+.prd-w._list .prd ._glb,
+.prd-w._list .prd ._mall,
+.prd-w._list .prd .camp,
+.prd._full .curr,
+.prd._full .old {
+    vertical-align: middle
+}
+
+.sc {
+    position: fixed;
+    position: -webkit-sticky;
+    position: sticky
+}
+
+.crs {
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scroll-snap-type: mandatory;
+    -webkit-scroll-snap-type: mandatory
+}
+
+.tab .crs {
+    scroll-behavior: auto
+}
+
+.crs .itm {
+    scroll-snap-align: start
+}
+
+@supports(scroll-snap-coordinate:0% 0%) {
+    .crs .itm {
+        scroll-snap-coordinate: 0 0
+    }
+}
+
+.crs._bnrs .itm {
+    scroll-snap-align: center
+}
+
+@supports(scroll-snap-coordinate:0% 0%) {
+    .crs._bnrs .itm {
+        scroll-snap-coordinate: -12.5% 0
+    }
+}
+
+.crs._prd-i .itm {
+    scroll-snap-align: center
+}
+
+@supports(scroll-snap-coordinate:0% 0%) {
+    .crs._prd-i .itm {
+        scroll-snap-coordinate: -7.5% 0
+    }
+}
+
+.crs._gal-th .itm {
+    scroll-snap-align: center
+}
+
+.crs._bnrs .itm,
+.crs._gal-m .itm,
+.crs._prd-i .itm {
+    scroll-snap-stop: always
+}
+
+#jm .-lspi {
+    list-style-position: inside
+}
+
+.dtls .smry {
+    list-style: none
+}
+
+.spinner {
+    animation: spin 1s linear infinite
+}
+
+.spin:before {
+    animation: sp-ab-tr 1s linear infinite
+}
+
+button {
+    padding: 0
+}
+
+a {
+    color: inherit
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+a {
+    -webkit-text-decoration-skip: objects
+}
+
+small {
+    font-size: 80%
+}
+
+button {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+body {
+    direction: ltr
+}
+
+._4c .col {
+    flex-basis: 25%;
+    max-width: 25%;
+    min-width: 25%;
+    width: 25%
+}
+
+._3c .col {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+    min-width: 33.3333333333%;
+    width: 33.3333333333%
+}
+
+._3c-shs .col {
+    width: calc(33.33333% - 8px)
+}
+
+._2c .col {
+    flex-basis: 50%;
+    max-width: 50%;
+    min-width: 50%;
+    width: 50%
+}
+
+.col1 {
+    flex-basis: 12.5%;
+    max-width: 12.5%;
+    min-width: 12.5%;
+    width: 12.5%
+}
+
+.col2 {
+    flex-basis: 25%;
+    max-width: 25%;
+    min-width: 25%;
+    width: 25%
+}
+
+.col3 {
+    flex-basis: 37.5%;
+    max-width: 37.5%;
+    min-width: 37.5%;
+    width: 37.5%
+}
+
+.col4 {
+    flex-basis: 50%;
+    max-width: 50%;
+    min-width: 50%;
+    width: 50%
+}
+
+.col5 {
+    flex-basis: 62.5%;
+    max-width: 62.5%;
+    min-width: 62.5%;
+    width: 62.5%
+}
+
+.col6 {
+    flex-basis: 75%;
+    max-width: 75%;
+    min-width: 75%;
+    width: 75%
+}
+
+.col7 {
+    flex-basis: 87.5%;
+    max-width: 87.5%;
+    min-width: 87.5%;
+    width: 87.5%
+}
+
+.col8 {
+    flex-basis: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%
+}
+
+img[data-lazy] {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath fill='%23FFF' d='m19.38 9.54-1.85 1.8-1.84 1.8.87 5.08-4.56-2.4-4.56 2.4.87-5.08-1.84-1.8-1.85-1.8 5.1-.74L12 4.18l2.28 4.62zm.34-3.9A9.98 9.98 0 0 0 12 2a9.98 9.98 0 0 0-7.72 3.64A9.95 9.95 0 0 0 2 12a9.95 9.95 0 0 0 3.64 7.71A9.96 9.96 0 0 0 12 22c2.42 0 4.63-.86 6.36-2.29a10 10 0 0 0 1.93-2.12 9.95 9.95 0 0 0 1.71-5.6 9.96 9.96 0 0 0-2.28-6.35'/%3E%3C/svg%3E") #d4d4d6 50%/40% no-repeat
+}
+
+@supports not ((position:-webkit-sticky) or (position:sticky)) {
+    .sc._wopf {
+        position: static
+    }
+}
+
+@keyframes sp-ab-tr {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg)
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(1turn)
+    }
+}
+
+[data-bbl]:before {
+    content: attr(data-bbl)
+}
+
+.dtls .smry::-webkit-details-marker {
+    display: none
+}
+
+.brcbs .cbs:after {
+    content: ">"
+}
+
+.fi::placeholder,
+.rng .ri::placeholder,
+.ta::placeholder {
+    color: #75757a
+}
+
+.cb+.lbl:before {
+    left: -29px;
+    top: 12px;
+    transform: translate3d(-11px, -50%, 0)
+}
+
+.cb:checked+.lbl:after {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' style='isolation:isolate'%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath d='M0 0h18v18H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23a)'%3E%3Cpath fill='none' d='M0 0h18v18H0z'/%3E%3Cpath fill='%23FFF' fill-rule='evenodd' d='M6.894 14.486 1.629 9.221l1.485-1.485 3.78 3.77 7.992-7.992 1.485 1.495z'/%3E%3C/g%3E%3C/svg%3E")
+}
+
+.cb:focus-visible {
+    outline: none;
+    outline-offset: 0
+}
+
+.fk-rad:before,
+.rad~.lbl:before {
+    left: 3px;
+    top: 12px;
+    transform: translate3d(-11px, -50%, 0)
+}
+
+.fk-rad._chk:after,
+.rad:checked~.lbl:after {
+    box-shadow: inset 0 0 0 3px #fff
+}
+
+.rad:focus-visible {
+    outline: none;
+    outline-offset: 0
+}
+
+.sel {
+    --ac: #75757a;
+    background: linear-gradient(45deg, transparent 40%, var(--ac) 50%) no-repeat top 21px right 30px/6px 5px, linear-gradient(135deg, var(--ac) 50%, transparent 60%) no-repeat top 21px right 25px/6px 5px
+}
+
+.sel:focus {
+    --ac: #f6b01e
+}
+
+.sel:disabled {
+    --ac: #a3a3a6
+}
+
+.fi-er+.sel:not(:focus) {
+    --ac: #b81a0a
+}
+
+.rate .ri:focus+.star svg,
+.rate .star:active svg {
+    animation: p .5s
+}
+
+.rate .ri:checked+.star:after {
+    content: attr(data-msg)
+}
+
+@keyframes p {
+    0% {
+        filter: drop-shadow(0 0 0 #f68b1e)
+    }
+    to {
+        filter: drop-shadow(0 0 30px transparent)
+    }
+}
+
+.dp {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath fill='%2375757a' d='M19.2 3.8h-.9V2h-1.8v1.8h-9V2H5.7v1.8h-.9c-1 0-1.8.8-1.8 1.8v14.6c0 1 .8 1.8 1.8 1.8h14.4c1 0 1.8-.8 1.8-1.8V5.6c0-1-.8-1.8-1.8-1.8m0 16.4H4.8V8.4h14.4z'/%3E%3C/svg%3E") no-repeat top 12px right 16px
+}
+
+.dp::-webkit-clear-button,
+.dp::-webkit-inner-spin-button {
+    display: none
+}
+
+.dp::-webkit-calendar-picker-indicator {
+    height: 40px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    width: 56px
+}
+
+.vars .vi._dis+.vl,
+.vars .vi:disabled+.vl {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 100'%3E%3Cpath fill='%23c7c7cd' d='M0 100 100 0l1 1L1 101'/%3E%3C/svg%3E") no-repeat 50%/65% 65%
+}
+
+.rng .rs,
+.rng .rs::-webkit-slider-runnable-track,
+.rng .rs::-webkit-slider-thumb {
+    -webkit-appearance: none
+}
+
+.rng .rs::-webkit-slider-thumb {
+    background: #f68b1e;
+    border: none;
+    border-radius: 50%;
+    height: 16px;
+    outline: 0;
+    pointer-events: auto;
+    position: relative;
+    width: 16px;
+    z-index: 2
+}
+
+.rng .rs::-webkit-slider-runnable-track {
+    background: none
+}
+
+.rng .rs::-moz-range-thumb {
+    background-color: #f68b1e;
+    border: none;
+    border-radius: 50%;
+    filter: grayscale(0);
+    height: 16px;
+    outline: 0;
+    pointer-events: auto;
+    width: 16px;
+    z-index: 10
+}
+
+.rng .rs::-moz-range-track {
+    background: none
+}
+
+.rng .rs::-moz-focus-outer {
+    border: 0
+}
+
+.fi-br button:before {
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0)
+}
+
+@supports(border-color:-moz-use-text-color) {
+    .btn._i {
+        display: block
+    }
+    .btn._i * {
+        vertical-align: middle
+    }
+}
+
+@supports(not (font-variation-settings:"wght" 50)) and (not (touch-action:none)) and (not (-moz-text-align-last:right)) {
+    .btn._i {
+        display: block
+    }
+    .btn._i * {
+        vertical-align: middle
+    }
+}
+
+.btn._def:after,
+.btn._sec:after {
+    background: radial-gradient(circle, #f68b1e 10%, transparent 0) 50%
+}
+
+._val-btn .cb:checked~.btn:after,
+.btn._fb:after,
+.btn._prim:after {
+    background: radial-gradient(circle, #fff 10%, transparent 0) 50%
+}
+
+.hook {
+    top: -56px
+}
+
+.ic {
+    fill: #313133
+}
+
+.stars,
+.stars .in {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='58' height='10'%3E%3Cpath fill='%23f6b01e' d='m53.48.31 1.13 2.4c.08.16.23.28.4.3l2.53.38c.44.07.62.64.3.97L56 6.22a.58.58 0 0 0-.15.5l.43 2.62c.07.46-.4.81-.78.6l-2.26-1.25a.52.52 0 0 0-.5 0l-2.26 1.24c-.4.22-.85-.13-.78-.59l.43-2.63a.58.58 0 0 0-.15-.5l-1.83-1.85c-.32-.33-.14-.9.3-.97l2.52-.38a.54.54 0 0 0 .4-.3L52.5.31c.2-.41.77-.41.96 0zm-12 0 1.13 2.4c.08.16.23.28.4.3l2.53.38c.44.07.62.64.3.97L44 6.22a.58.58 0 0 0-.15.5l.43 2.62c.07.46-.39.81-.78.6l-2.26-1.25a.52.52 0 0 0-.5 0l-2.26 1.24c-.4.22-.85-.13-.78-.59l.43-2.63a.58.58 0 0 0-.15-.5l-1.83-1.85c-.32-.33-.14-.9.3-.97l2.52-.38a.54.54 0 0 0 .4-.3l1.14-2.4c.2-.41.77-.41.96 0zm-24 0 1.14 2.4c.08.16.23.28.4.3l2.53.38c.44.07.62.64.3.97L20 6.22a.58.58 0 0 0-.15.5l.43 2.62c.07.46-.4.81-.78.6l-2.26-1.25a.52.52 0 0 0-.5 0l-2.26 1.24c-.4.22-.85-.13-.78-.59l.43-2.63a.58.58 0 0 0-.15-.5l-1.83-1.85c-.32-.33-.14-.9.3-.97l2.52-.38a.54.54 0 0 0 .4-.3l1.14-2.4c.2-.41.77-.41.96 0zm12 0 1.13 2.4c.08.16.23.28.4.3l2.53.38c.44.07.62.64.3.97L32 6.22a.58.58 0 0 0-.15.5l.43 2.62c.07.46-.39.81-.78.6l-2.26-1.25a.52.52 0 0 0-.5 0L26.5 9.93c-.4.22-.85-.13-.78-.59l.43-2.63a.58.58 0 0 0-.15-.5l-1.83-1.85c-.32-.33-.14-.9.3-.97l2.52-.38a.54.54 0 0 0 .4-.3l1.14-2.4c.2-.41.76-.41.95 0h.01zM5.5.31l1.13 2.4c.08.16.23.28.4.3l2.53.38c.44.07.62.64.3.97L8.01 6.22a.58.58 0 0 0-.15.5l.43 2.62c.07.46-.39.81-.78.6L5.25 8.69a.52.52 0 0 0-.5 0L2.5 9.93c-.4.22-.85-.13-.78-.59l.43-2.63a.58.58 0 0 0-.15-.5L.16 4.36c-.32-.33-.14-.9.3-.97l2.52-.38a.54.54 0 0 0 .4-.3L4.52.31c.2-.41.77-.41.96 0h.01z'/%3E%3C/svg%3E")
+}
+
+.popup .cw .cont {
+    max-height: calc(60vh - 62px)
+}
+
+.popup._fh .cont {
+    max-height: calc(100vh - 56px)
+}
+
+.stpr .stp:after {
+    left: 10px;
+    top: 24px
+}
+
+.stpr .stp:last-child .circ .ic {
+    height: 8px;
+    width: 8px
+}
+
+.stpr .circ {
+    height: 24px;
+    width: 24px
+}
+
+.stpr .ft {
+    margin-left: 40px
+}
+
+@keyframes load {
+    50% {
+        transform: rotate(1turn) scale(1.5)
+    }
+    to {
+        transform: rotate(0deg) scale(1)
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.load {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath fill='%23c7c7cd' d='m19.38 9.54-1.85 1.8-1.84 1.8.87 5.08-4.56-2.4-4.56 2.4.87-5.08-1.84-1.8-1.85-1.8 5.1-.74L12 4.18l2.28 4.62zm.34-3.9A9.98 9.98 0 0 0 12 2a9.98 9.98 0 0 0-7.72 3.64A9.95 9.95 0 0 0 2 12a9.95 9.95 0 0 0 3.64 7.71A9.96 9.96 0 0 0 12 22c2.42 0 4.63-.86 6.36-2.29a10 10 0 0 0 1.93-2.12 9.95 9.95 0 0 0 1.71-5.6 9.96 9.96 0 0 0-2.28-6.35'/%3E%3C/svg%3E")
+}
+
+.crs {
+    -webkit-overflow-scrolling: touch
+}
+
+.crs._itm-40pc .itm {
+    flex-basis: 40%;
+    max-width: 40%;
+    min-width: 40%;
+    width: 40%
+}
+
+.crs._bnrs._ar1-1 .img {
+    height: 80vw
+}
+
+.crs._bnrs._ar1-1 .itm:only-child .img {
+    height: calc(100vw - 16px)
+}
+
+.crs._bnrs._ar3-1 .img {
+    height: 26.66667vw
+}
+
+.crs._bnrs._ar3-1 .itm:only-child .img {
+    height: calc(33.33333vw - 5.33333px)
+}
+
+.crs._bnrs._ar3-2 .img {
+    height: 53.33333vw
+}
+
+.crs._bnrs._ar3-2 .itm:only-child .img {
+    height: calc(66.66667vw - 10.66667px)
+}
+
+.crs._bnrs._ar3-4 .img {
+    height: 106.66667vw
+}
+
+.crs._bnrs._ar3-4 .itm:only-child .img {
+    height: calc(133.33333vw - 21.33333px)
+}
+
+.crs._bnrs._ar5-2 .img {
+    height: 32vw
+}
+
+.crs._bnrs._ar5-2 .itm:only-child .img {
+    height: calc(40vw - 6.4px)
+}
+
+.crs._bnrs._ar5-4 .img {
+    height: 64vw
+}
+
+.crs._bnrs._ar5-4 .itm:only-child .img {
+    height: calc(80vw - 12.8px)
+}
+
+.crs._bnrs .itm:only-child .img {
+    height: calc(50vw - 8px)
+}
+
+.crs._bnrs .img {
+    height: 40vw
+}
+
+.prd._full .ftr>:not(._def) {
+    flex-basis: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%
+}
+
+.prd._full ._wslt {
+    left: calc(100% - 32px);
+    top: calc(50vw - 44px)
+}
+
+#tog-v:checked+.prd-w .col,
+.prd-w._list .col {
+    flex-basis: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%
+}
+
+#tog-v:checked+.prd-w .prd .ftr>:not(._def),
+.prd-w._list .prd .ftr>:not(._def) {
+    flex-basis: 50%;
+    max-width: 50%;
+    min-width: 50%;
+    width: 50%
+}
+
+#tog-v:checked+.prd-w .prd ._wslt,
+.prd-w._list .prd ._wslt {
+    left: 96px;
+    top: 96px
+}
+
+.xpnd .tglr~.cta-w [data-show]:before {
+    content: attr(data-show)
+}
+
+.xpnd .tglr:checked~.cta-w [data-hide]:before {
+    content: attr(data-hide)
+}
+
+.gal .count:after {
+    content: attr(data-tot)
+}
+
+.s-menu._2c {
+    flex-basis: 25%;
+    max-width: 25%;
+    min-width: 25%;
+    width: 25%
+}
+
+@supports(-webkit-line-clamp:2) {
+    .s-menu .itm {
+        display: -webkit-box;
+        white-space: normal;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3
+    }
+}
+
+.tab:after,
+.tab:before {
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, .9) 25%, hsla(0, 0%, 100%, .2));
+    height: calc(100% - 2px)
+}
+
+.bdg {
+    font-family: Roboto, Arial, Helvetica, sans-serif
+}
+
+.bdg._score:after {
+    content: "/5"
+}
+
+.chip {
+    font-family: Roboto, Arial, Helvetica, sans-serif
+}
+
+@supports(-webkit-line-clamp:2) {
+    #jm .-elli3 {
+        -webkit-line-clamp: 3
+    }
+    #jm .-elli3,
+    #jm .-elli6 {
+        display: -webkit-box;
+        white-space: normal;
+        -webkit-box-orient: vertical
+    }
+    #jm .-elli6 {
+        -webkit-line-clamp: 6
+    }
+}
+
+#jm .-dn {
+    display: none
+}
+
+@supports not ((position:-webkit-sticky) or (position:sticky)) {
+    .__sc-bt,
+    .__sc-bt-ft+.foot {
+        padding-bottom: 72px
+    }
+}

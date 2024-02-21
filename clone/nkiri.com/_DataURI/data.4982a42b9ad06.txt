@@ -1,0 +1,1 @@
+chrome-extension://difoiogjjojoaoomphldepapgpbgkhkb/i18n/en.json
