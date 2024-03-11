@@ -65,7 +65,7 @@ header.sticky {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     text-decoration: none;
     border: none;
     outline: none;
@@ -73,6 +73,7 @@ header.sticky {
 }
 body{
     background-color: rgb(92, 90, 90);
+    
 }
 .home{
     margin-left: 30%;
@@ -133,7 +134,7 @@ body{
 .container{
     width: 100%;
    height: 300px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline-flex;
    
 }
@@ -166,4 +167,34 @@ h1, h2{
 img{
     height:250px;
     width: 400px;
+}
+
+
+/* Default styles for navigation */
+.main-nav .mobile-only {
+    display: none;
+    /* Hide icons by default */
+}
+
+/* Media query for screens with a maximum width of 768 pixels (typical for tablets and smaller devices) */
+@media only screen and (max-width: 768px) {
+
+    /* Show icons for mobile devices */
+    .main-nav .mobile-only {
+        display: inline-block;
+        /* Display icons as inline-block elements */
+        margin-left: 10px;
+        /* Adjust spacing if needed */
+    }
+
+    /* Optionally, adjust other styles for smaller screens */
+    .main-nav ul {
+        flex-direction: column;
+        /* Change navigation to a column layout */
+    }
+
+    .main-nav li {
+        margin-bottom: 10px;
+        /* Add spacing between navigation items */
+    }
 }
