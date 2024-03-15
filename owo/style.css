@@ -2,8 +2,8 @@
     margin: 0;
 }
 body{
-     background-image: url(C:\Users\DELL\Downloads\Video\How to Survive a Falling Elevator, According to Science.mp4); */
-    
+     /* background: url(1.jpg); */ 
+    /* background-color: ; */
 }
 
 nav{
@@ -69,4 +69,83 @@ nav{
 .dropdown:hover .dropdown-content {
     /* Show dropdown on hover */
     display: block;
+}
+.ttt{
+    text-align: center;
+    
+}
+
+.first{
+    background-color: aqua;
+    width: 100%;
+    padding-bottom: 240px;
+    padding-top: 240px;
+}
+.middle{
+text-align: center;
+font-size: 30px;
+}
+.mi{
+    /* font-weight: bolder; */
+    font-size: 20px;
+}
+.month{
+    
+}
+.mth{
+    background-color: black;
+    width: 20%;
+    height: 300px;
+    margin-left: 40%;
+   
+    
+    
+}
+
+.cont1 {
+    background-color: white;
+    width: 150px;
+    height: 170px;
+    border-radius: 3px;
+    border: 4px solid white;
+    box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.25)
+}
+
+.col {
+    display: flex;
+    width: fit-content;
+    margin-left: 20px;
+    box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.25)
+}
+.ceo{
+    
+        height: 250px;
+        width: 250px;
+        align-items: center;
+        margin-left: 45%;
+        margin-top: 20px;
+        padding-top: 20px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.ccc{
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+ .staff2{
+    background: url(4.jpg);
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+ }
+.staff{
+    display: flex;
+}
+
+.staff1{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
 }
